@@ -1,0 +1,12 @@
+// Classe: k
+// Metodo: a
+// Descritor: (Lcom/nokia/mid/sound/Sound;)V
+// Instrucoes: 7
+
+[   0] aload_1
+[   1] invokevirtual com/nokia/mid/sound/Sound.getState
+[   2] ifeq 8
+[   3] aload_1
+[   4] iconst_1
+[   5] invokevirtual com/nokia/mid/sound/Sound.play
+[   6] return

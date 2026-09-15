@@ -1,0 +1,13 @@
+// Classe: d
+// Metodo: <init>
+// Descritor: ()V
+// Instrucoes: 8
+
+[   0] aload_0
+[   1] invokespecial java/lang/Object.<init>
+[   2] aload_0
+[   3] new 2
+[   4] dup
+[   5] invokespecial java/util/Random.<init>
+[   6] putfield d.a
+[   7] return

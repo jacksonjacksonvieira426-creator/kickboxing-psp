@@ -1,0 +1,54 @@
+// Classe: b
+// Metodo: case
+// Descritor: (Ljavax/microedition/lcdui/Graphics;Lcom/nokia/mid/ui/DirectGraphics;)V
+// Instrucoes: 49
+
+[   0] aload_0
+[   1] iconst_0
+[   2] iconst_0
+[   3] iconst_0
+[   4] invokevirtual b.a
+[   5] aload_0
+[   6] getfield b.else
+[   7] iflt 19
+[   8] aload_0
+[   9] getfield b.else
+[  10] iconst_2
+[  11] if_icmpgt 11
+[  12] aload_0
+[  13] iconst_0
+[  14] putfield b.byte
+[  15] goto 45
+[  16] aload_0
+[  17] getfield b.else
+[  18] iconst_3
+[  19] if_icmplt 19
+[  20] aload_0
+[  21] getfield b.else
+[  22] iconst_5
+[  23] if_icmpgt 11
+[  24] aload_0
+[  25] iconst_1
+[  26] putfield b.byte
+[  27] goto 21
+[  28] aload_0
+[  29] getfield b.else
+[  30] iconst_5
+[  31] if_icmple 13
+[  32] aload_0
+[  33] iconst_0
+[  34] putfield b.else
+[  35] aload_0
+[  36] iconst_0
+[  37] putfield b.char
+[  38] aload_0
+[  39] aload_1
+[  40] aload_2
+[  41] invokevirtual b.for
+[  42] aload_0
+[  43] dup
+[  44] getfield b.else
+[  45] iconst_1
+[  46] iadd
+[  47] putfield b.else
+[  48] return

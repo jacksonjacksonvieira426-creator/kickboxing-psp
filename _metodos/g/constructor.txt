@@ -1,0 +1,91 @@
+// Classe: g
+// Metodo: <init>
+// Descritor: (Lh;)V
+// Instrucoes: 86
+
+[   0] aload_0
+[   1] invokespecial java/lang/Object.<init>
+[   2] aload_0
+[   3] iconst_0
+[   4] putfield g.e
+[   5] aload_0
+[   6] iconst_0
+[   7] putfield g.try
+[   8] aload_0
+[   9] iconst_0
+[  10] putfield g.new
+[  11] aload_0
+[  12] iconst_0
+[  13] putfield g.null
+[  14] aload_0
+[  15] iconst_0
+[  16] putfield g.else
+[  17] aload_0
+[  18] iconst_0
+[  19] putfield g.case
+[  20] aload_0
+[  21] iconst_4
+[  22] newarray 10
+[  23] putfield g.c
+[  24] aload_0
+[  25] iconst_4
+[  26] newarray 10
+[  27] putfield g.d
+[  28] aload_0
+[  29] iconst_4
+[  30] newarray 10
+[  31] putfield g.if
+[  32] aload_0
+[  33] iconst_4
+[  34] anewarray 11
+[  35] dup
+[  36] iconst_0
+[  37] ldc 12
+[  38] aastore
+[  39] dup
+[  40] iconst_1
+[  41] ldc 13
+[  42] aastore
+[  43] dup
+[  44] iconst_2
+[  45] ldc 14
+[  46] aastore
+[  47] dup
+[  48] iconst_3
+[  49] ldc 15
+[  50] aastore
+[  51] putfield g.void
+[  52] aload_0
+[  53] iconst_0
+[  54] putfield g.a
+[  55] aload_0
+[  56] aconst_null
+[  57] putfield g.int
+[  58] aload_0
+[  59] ldc 19
+[  60] putfield g.f
+[  61] aload_0
+[  62] aload_1
+[  63] putfield g.for
+[  64] aload_0
+[  65] aload_1
+[  66] getfield h.new
+[  67] putfield g.e
+[  68] aload_0
+[  69] aload_1
+[  70] getfield h.m
+[  71] putfield g.try
+[  72] aload_0
+[  73] invokespecial g.if
+[  74] aload_0
+[  75] invokevirtual g.case
+[  76] aload_0
+[  77] iconst_1
+[  78] putfield g.else
+[  79] aload_0
+[  80] new 26
+[  81] dup
+[  82] aload_0
+[  83] invokespecial e.<init>
+[  84] putfield g.int
+[  85] return

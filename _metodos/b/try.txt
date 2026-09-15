@@ -1,0 +1,21 @@
+// Classe: b
+// Metodo: try
+// Descritor: (Ljavax/microedition/lcdui/Graphics;Lcom/nokia/mid/ui/DirectGraphics;)V
+// Instrucoes: 16
+
+[   0] aload_0
+[   1] iconst_0
+[   2] iconst_0
+[   3] iconst_0
+[   4] invokevirtual b.a
+[   5] aload_0
+[   6] iconst_0
+[   7] putfield b.byte
+[   8] aload_0
+[   9] aload_1
+[  10] aload_2
+[  11] invokevirtual b.for
+[  12] aload_0
+[  13] iconst_0
+[  14] putfield b.long
+[  15] return

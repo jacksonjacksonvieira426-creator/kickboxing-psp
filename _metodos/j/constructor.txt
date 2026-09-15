@@ -1,0 +1,33 @@
+// Classe: j
+// Metodo: <init>
+// Descritor: (Lh;)V
+// Instrucoes: 28
+
+[   0] aload_0
+[   1] invokespecial java/lang/Object.<init>
+[   2] aload_1
+[   3] putstatic j.do
+[   4] getstatic j.goto
+[   5] anewarray 4
+[   6] putstatic j.if
+[   7] getstatic j.if
+[   8] iconst_0
+[   9] ldc 6
+[  10] aastore
+[  11] getstatic j.if
+[  12] iconst_1
+[  13] ldc 7
+[  14] aastore
+[  15] getstatic j.if
+[  16] iconst_2
+[  17] ldc 8
+[  18] aastore
+[  19] getstatic j.if
+[  20] iconst_3
+[  21] ldc 9
+[  22] aastore
+[  23] getstatic j.if
+[  24] iconst_4
+[  25] ldc 10
+[  26] aastore
+[  27] return

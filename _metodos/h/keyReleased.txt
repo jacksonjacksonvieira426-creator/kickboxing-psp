@@ -1,0 +1,13 @@
+// Classe: h
+// Metodo: keyReleased
+// Descritor: (I)V
+// Instrucoes: 8
+
+[   0] aload_0
+[   1] getfield h.void
+[   2] iconst_1
+[   3] if_icmpne 8
+[   4] aload_0
+[   5] iconst_0
+[   6] putfield h.void
+[   7] return

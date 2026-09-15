@@ -1,0 +1,214 @@
+// Classe: a
+// Metodo: a
+// Descritor: (La;I)Z
+// Instrucoes: 209
+
+[   0] new 7
+[   1] dup
+[   2] aload_0
+[   3] getfield a.if
+[   4] getfield a.a
+[   5] iload_2
+[   6] iadd
+[   7] aload_0
+[   8] getfield a.if
+[   9] getfield a.int
+[  10] iload_2
+[  11] iadd
+[  12] invokespecial i.<init>
+[  13] astore_3
+[  14] new 7
+[  15] dup
+[  16] aload_0
+[  17] getfield a.if
+[  18] getfield a.a
+[  19] aload_0
+[  20] getfield a.if
+[  21] getfield a.for
+[  22] iadd
+[  23] iload_2
+[  24] isub
+[  25] aload_0
+[  26] getfield a.if
+[  27] getfield a.int
+[  28] iload_2
+[  29] iadd
+[  30] invokespecial i.<init>
+[  31] astore 4
+[  32] new 7
+[  33] dup
+[  34] aload_0
+[  35] getfield a.if
+[  36] getfield a.a
+[  37] iload_2
+[  38] iadd
+[  39] aload_0
+[  40] getfield a.if
+[  41] getfield a.int
+[  42] aload_0
+[  43] getfield a.if
+[  44] getfield a.do
+[  45] iadd
+[  46] iload_2
+[  47] isub
+[  48] invokespecial i.<init>
+[  49] astore 5
+[  50] new 7
+[  51] dup
+[  52] aload_0
+[  53] getfield a.if
+[  54] getfield a.a
+[  55] aload_0
+[  56] getfield a.for
+[  57] iadd
+[  58] iload_2
+[  59] isub
+[  60] aload_0
+[  61] getfield a.if
+[  62] getfield a.int
+[  63] aload_0
+[  64] getfield a.if
+[  65] getfield a.do
+[  66] iadd
+[  67] iload_2
+[  68] isub
+[  69] invokespecial i.<init>
+[  70] astore 6
+[  71] new 7
+[  72] dup
+[  73] aload_1
+[  74] getfield a.a
+[  75] iconst_2
+[  76] iadd
+[  77] aload_1
+[  78] getfield a.int
+[  79] invokespecial i.<init>
+[  80] astore 7
+[  81] new 7
+[  82] dup
+[  83] aload_1
+[  84] getfield a.a
+[  85] aload_1
+[  86] getfield a.for
+[  87] iadd
+[  88] aload_1
+[  89] getfield a.int
+[  90] invokespecial i.<init>
+[  91] astore 8
+[  92] new 7
+[  93] dup
+[  94] aload_1
+[  95] getfield a.a
+[  96] iconst_2
+[  97] iadd
+[  98] aload_1
+[  99] getfield a.int
+[ 100] aload_0
+[ 101] getfield a.do
+[ 102] iadd
+[ 103] invokespecial i.<init>
+[ 104] astore 9
+[ 105] new 7
+[ 106] dup
+[ 107] aload_1
+[ 108] getfield a.a
+[ 109] aload_1
+[ 110] getfield a.for
+[ 111] iadd
+[ 112] aload_1
+[ 113] getfield a.int
+[ 114] aload_1
+[ 115] getfield a.do
+[ 116] iadd
+[ 117] invokespecial i.<init>
+[ 118] astore 10
+[ 119] aload_3
+[ 120] getfield i.a
+[ 121] aload 7
+[ 122] getfield i.a
+[ 123] if_icmpgt 43
+[ 124] aload_3
+[ 125] getfield i.if
+[ 126] aload 7
+[ 127] getfield i.if
+[ 128] if_icmpgt 31
+[ 129] aload 6
+[ 130] getfield i.a
+[ 131] aload 7
+[ 132] getfield i.a
+[ 133] if_icmplt 18
+[ 134] aload 6
+[ 135] getfield i.if
+[ 136] aload 7
+[ 137] getfield i.if
+[ 138] if_icmplt 5
+[ 139] iconst_1
+[ 140] ireturn
+[ 141] aload_3
+[ 142] getfield i.a
+[ 143] aload 8
+[ 144] getfield i.a
+[ 145] if_icmpgt 43
+[ 146] aload_3
+[ 147] getfield i.if
+[ 148] aload 8
+[ 149] getfield i.if
+[ 150] if_icmpgt 31
+[ 151] aload 6
+[ 152] getfield i.a
+[ 153] aload 8
+[ 154] getfield i.a
+[ 155] if_icmplt 18
+[ 156] aload 6
+[ 157] getfield i.if
+[ 158] aload 8
+[ 159] getfield i.if
+[ 160] if_icmplt 5
+[ 161] iconst_1
+[ 162] ireturn
+[ 163] aload_3
+[ 164] getfield i.a
+[ 165] aload 9
+[ 166] getfield i.a
+[ 167] if_icmpgt 43
+[ 168] aload_3
+[ 169] getfield i.if
+[ 170] aload 9
+[ 171] getfield i.if
+[ 172] if_icmpgt 31
+[ 173] aload 6
+[ 174] getfield i.a
+[ 175] aload 9
+[ 176] getfield i.a
+[ 177] if_icmplt 18
+[ 178] aload 6
+[ 179] getfield i.if
+[ 180] aload 9
+[ 181] getfield i.if
+[ 182] if_icmplt 5
+[ 183] iconst_1
+[ 184] ireturn
+[ 185] aload_3
+[ 186] getfield i.a
+[ 187] aload 10
+[ 188] getfield i.a
+[ 189] if_icmpgt 43
+[ 190] aload_3
+[ 191] getfield i.if
+[ 192] aload 10
+[ 193] getfield i.if
+[ 194] if_icmpgt 31
+[ 195] aload 6
+[ 196] getfield i.a
+[ 197] aload 10
+[ 198] getfield i.a
+[ 199] if_icmplt 18
+[ 200] aload 6
+[ 201] getfield i.if
+[ 202] aload 10
+[ 203] getfield i.if
+[ 204] if_icmplt 5
+[ 205] iconst_1
+[ 206] ireturn
+[ 207] iconst_0
+[ 208] ireturn

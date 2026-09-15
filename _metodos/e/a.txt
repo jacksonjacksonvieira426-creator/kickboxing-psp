@@ -1,0 +1,55 @@
+// Classe: e
+// Metodo: a
+// Descritor: ()V
+// Instrucoes: 50
+
+[   0] aload_0
+[   1] getfield e.a
+[   2] getfield g.do
+[   3] bipush 8
+[   4] putfield b.char
+[   5] aload_0
+[   6] getfield e.a
+[   7] getfield g.do
+[   8] aload_0
+[   9] getfield e.a
+[  10] getfield g.do
+[  11] getfield c.k
+[  12] aload_0
+[  13] getfield e.a
+[  14] getfield g.c
+[  15] aload_0
+[  16] pop
+[  17] getstatic g.byte
+[  18] iaload
+[  19] isub
+[  20] putfield c.k
+[  21] aload_0
+[  22] getfield e.a
+[  23] aload_0
+[  24] getfield e.a
+[  25] getfield g.new
+[  26] iconst_5
+[  27] iadd
+[  28] putfield g.new
+[  29] aload_0
+[  30] getfield e.a
+[  31] getfield g.do
+[  32] getfield b.e
+[  33] aload_0
+[  34] getfield e.a
+[  35] getfield g.b
+[  36] getfield b.e
+[  37] if_icmpge 17
+[  38] aload_0
+[  39] getfield e.a
+[  40] getfield g.do
+[  41] iconst_1
+[  42] invokevirtual c.if
+[  43] goto 14
+[  44] aload_0
+[  45] getfield e.a
+[  46] getfield g.do
+[  47] iconst_1
+[  48] invokevirtual c.a
+[  49] return

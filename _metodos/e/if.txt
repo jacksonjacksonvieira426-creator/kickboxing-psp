@@ -1,0 +1,429 @@
+// Classe: e
+// Metodo: if
+// Descritor: ()V
+// Instrucoes: 424
+
+[   0] aload_0
+[   1] getfield e.a
+[   2] getfield g.b
+[   3] getfield b.char
+[   4] bipush 8
+[   5] if_icmpeq 18
+[   6] aload_0
+[   7] getfield e.a
+[   8] getfield g.do
+[   9] getfield b.char
+[  10] bipush 8
+[  11] if_icmpne 4
+[  12] return
+[  13] aload_0
+[  14] getfield e.a
+[  15] getfield g.b
+[  16] getfield b.e
+[  17] istore_1
+[  18] aload_0
+[  19] getfield e.a
+[  20] getfield g.b
+[  21] getfield b.d
+[  22] istore_2
+[  23] getstatic h.f
+[  24] aload_0
+[  25] getfield e.a
+[  26] getfield g.b
+[  27] getfield b.null
+[  28] aaload
+[  29] aload_0
+[  30] getfield e.a
+[  31] getfield g.b
+[  32] getfield b.byte
+[  33] aaload
+[  34] getfield a.for
+[  35] istore_3
+[  36] getstatic h.f
+[  37] aload_0
+[  38] getfield e.a
+[  39] getfield g.b
+[  40] getfield b.null
+[  41] aaload
+[  42] aload_0
+[  43] getfield e.a
+[  44] getfield g.b
+[  45] getfield b.byte
+[  46] aaload
+[  47] getfield a.do
+[  48] istore 4
+[  49] aload_0
+[  50] getfield e.a
+[  51] getfield g.do
+[  52] getfield b.e
+[  53] istore 5
+[  54] aload_0
+[  55] getfield e.a
+[  56] getfield g.do
+[  57] getfield b.d
+[  58] istore 6
+[  59] getstatic h.f
+[  60] aload_0
+[  61] getfield e.a
+[  62] getfield g.do
+[  63] getfield b.null
+[  64] aaload
+[  65] aload_0
+[  66] getfield e.a
+[  67] getfield g.do
+[  68] getfield b.byte
+[  69] aaload
+[  70] getfield a.for
+[  71] istore 7
+[  72] getstatic h.f
+[  73] aload_0
+[  74] getfield e.a
+[  75] getfield g.do
+[  76] getfield b.null
+[  77] aaload
+[  78] aload_0
+[  79] getfield e.a
+[  80] getfield g.do
+[  81] getfield b.byte
+[  82] aaload
+[  83] getfield a.do
+[  84] istore 8
+[  85] new 36
+[  86] dup
+[  87] iload_1
+[  88] iload_2
+[  89] iload_3
+[  90] iload 4
+[  91] invokespecial a.<init>
+[  92] astore 9
+[  93] new 36
+[  94] dup
+[  95] iload 5
+[  96] iload 6
+[  97] iload 7
+[  98] iload 8
+[  99] invokespecial a.<init>
+[ 100] astore 10
+[ 101] aload 9
+[ 102] aload 10
+[ 103] iconst_0
+[ 104] invokevirtual a.a
+[ 105] istore 11
+[ 106] aload_0
+[ 107] getfield e.a
+[ 108] getfield g.b
+[ 109] getfield b.h
+[ 110] ifne 139
+[ 111] aload_0
+[ 112] getfield e.a
+[ 113] getfield g.do
+[ 114] getfield b.h
+[ 115] iconst_1
+[ 116] if_icmpne 125
+[ 117] aload_0
+[ 118] getfield e.a
+[ 119] getfield g.b
+[ 120] getfield b.e
+[ 121] aload_0
+[ 122] getfield e.a
+[ 123] getfield g.do
+[ 124] getfield b.e
+[ 125] if_icmple 552
+[ 126] iload 11
+[ 127] ifeq 46
+[ 128] aload_0
+[ 129] getfield e.a
+[ 130] getfield g.b
+[ 131] getfield b.new
+[ 132] ifne 29
+[ 133] aload_0
+[ 134] getfield e.a
+[ 135] getfield g.b
+[ 136] getfield b.int
+[ 137] ifne 16
+[ 138] aload_0
+[ 139] getfield e.a
+[ 140] getfield g.b
+[ 141] getfield b.for
+[ 142] ifeq 7
+[ 143] aload_0
+[ 144] invokevirtual e.a
+[ 145] iload 11
+[ 146] ifeq 499
+[ 147] aload_0
+[ 148] getfield e.a
+[ 149] getfield g.do
+[ 150] getfield b.new
+[ 151] ifne 29
+[ 152] aload_0
+[ 153] getfield e.a
+[ 154] getfield g.do
+[ 155] getfield b.int
+[ 156] ifne 16
+[ 157] aload_0
+[ 158] getfield e.a
+[ 159] getfield g.do
+[ 160] getfield b.for
+[ 161] ifeq 460
+[ 162] aload_0
+[ 163] invokevirtual e.do
+[ 164] goto 453
+[ 165] aload_0
+[ 166] getfield e.a
+[ 167] getfield g.b
+[ 168] getfield b.h
+[ 169] ifne 141
+[ 170] aload_0
+[ 171] getfield e.a
+[ 172] getfield g.do
+[ 173] getfield b.h
+[ 174] ifne 128
+[ 175] aload_0
+[ 176] getfield e.a
+[ 177] getfield g.b
+[ 178] getfield b.e
+[ 179] aload_0
+[ 180] getfield e.a
+[ 181] getfield g.do
+[ 182] getfield b.e
+[ 183] if_icmple 54
+[ 184] iload 11
+[ 185] ifeq 399
+[ 186] aload_0
+[ 187] getfield e.a
+[ 188] getfield g.b
+[ 189] getfield b.new
+[ 190] ifne 29
+[ 191] aload_0
+[ 192] getfield e.a
+[ 193] getfield g.b
+[ 194] getfield b.int
+[ 195] ifne 16
+[ 196] aload_0
+[ 197] getfield e.a
+[ 198] getfield g.b
+[ 199] getfield b.for
+[ 200] ifeq 360
+[ 201] aload_0
+[ 202] invokevirtual e.a
+[ 203] goto 353
+[ 204] iload 11
+[ 205] ifeq 348
+[ 206] aload_0
+[ 207] getfield e.a
+[ 208] getfield g.do
+[ 209] getfield b.new
+[ 210] ifne 29
+[ 211] aload_0
+[ 212] getfield e.a
+[ 213] getfield g.do
+[ 214] getfield b.int
+[ 215] ifne 16
+[ 216] aload_0
+[ 217] getfield e.a
+[ 218] getfield g.do
+[ 219] getfield b.for
+[ 220] ifeq 309
+[ 221] aload_0
+[ 222] invokevirtual e.do
+[ 223] goto 302
+[ 224] aload_0
+[ 225] getfield e.a
+[ 226] getfield g.b
+[ 227] getfield b.h
+[ 228] iconst_1
+[ 229] if_icmpne 138
+[ 230] aload_0
+[ 231] getfield e.a
+[ 232] getfield g.do
+[ 233] getfield b.h
+[ 234] ifne 125
+[ 235] aload_0
+[ 236] getfield e.a
+[ 237] getfield g.b
+[ 238] getfield b.e
+[ 239] aload_0
+[ 240] getfield e.a
+[ 241] getfield g.do
+[ 242] getfield b.e
+[ 243] if_icmpge 252
+[ 244] iload 11
+[ 245] ifeq 46
+[ 246] aload_0
+[ 247] getfield e.a
+[ 248] getfield g.b
+[ 249] getfield b.new
+[ 250] ifne 29
+[ 251] aload_0
+[ 252] getfield e.a
+[ 253] getfield g.b
+[ 254] getfield b.int
+[ 255] ifne 16
+[ 256] aload_0
+[ 257] getfield e.a
+[ 258] getfield g.b
+[ 259] getfield b.for
+[ 260] ifeq 7
+[ 261] aload_0
+[ 262] invokevirtual e.a
+[ 263] iload 11
+[ 264] ifeq 199
+[ 265] aload_0
+[ 266] getfield e.a
+[ 267] getfield g.do
+[ 268] getfield b.new
+[ 269] ifne 29
+[ 270] aload_0
+[ 271] getfield e.a
+[ 272] getfield g.do
+[ 273] getfield b.int
+[ 274] ifne 16
+[ 275] aload_0
+[ 276] getfield e.a
+[ 277] getfield g.do
+[ 278] getfield b.for
+[ 279] ifeq 160
+[ 280] aload_0
+[ 281] invokevirtual e.do
+[ 282] goto 153
+[ 283] aload_0
+[ 284] getfield e.a
+[ 285] getfield g.b
+[ 286] getfield b.h
+[ 287] iconst_1
+[ 288] if_icmpne 139
+[ 289] aload_0
+[ 290] getfield e.a
+[ 291] getfield g.do
+[ 292] getfield b.h
+[ 293] iconst_1
+[ 294] if_icmpne 125
+[ 295] aload_0
+[ 296] getfield e.a
+[ 297] getfield g.b
+[ 298] getfield b.e
+[ 299] aload_0
+[ 300] getfield e.a
+[ 301] getfield g.do
+[ 302] getfield b.e
+[ 303] if_icmple 54
+[ 304] iload 11
+[ 305] ifeq 97
+[ 306] aload_0
+[ 307] getfield e.a
+[ 308] getfield g.do
+[ 309] getfield b.new
+[ 310] ifne 29
+[ 311] aload_0
+[ 312] getfield e.a
+[ 313] getfield g.do
+[ 314] getfield b.int
+[ 315] ifne 16
+[ 316] aload_0
+[ 317] getfield e.a
+[ 318] getfield g.do
+[ 319] getfield b.for
+[ 320] ifeq 58
+[ 321] aload_0
+[ 322] invokevirtual e.do
+[ 323] goto 51
+[ 324] iload 11
+[ 325] ifeq 46
+[ 326] aload_0
+[ 327] getfield e.a
+[ 328] getfield g.do
+[ 329] getfield b.new
+[ 330] ifne 29
+[ 331] aload_0
+[ 332] getfield e.a
+[ 333] getfield g.do
+[ 334] getfield b.int
+[ 335] ifne 16
+[ 336] aload_0
+[ 337] getfield e.a
+[ 338] getfield g.do
+[ 339] getfield b.for
+[ 340] ifeq 7
+[ 341] aload_0
+[ 342] invokevirtual e.do
+[ 343] aload_0
+[ 344] getfield e.a
+[ 345] getfield g.b
+[ 346] getfield f.l
+[ 347] ifgt 82
+[ 348] aload_0
+[ 349] getfield e.a
+[ 350] getfield g.b
+[ 351] bipush 6
+[ 352] putfield b.char
+[ 353] aload_0
+[ 354] getfield e.a
+[ 355] ldc 45
+[ 356] putfield g.f
+[ 357] aload_0
+[ 358] getfield e.a
+[ 359] pop
+[ 360] getstatic h.h
+[ 361] ifeq 152
+[ 362] aload_0
+[ 363] getfield e.a
+[ 364] getfield g.for
+[ 365] getfield h.long
+[ 366] invokevirtual k.do
+[ 367] goto 136
+[ 368] astore 12
+[ 369] getstatic System.out
+[ 370] new 23
+[ 371] dup
+[ 372] invokespecial java/lang/StringBuffer.<init>
+[ 373] ldc 48
+[ 374] invokevirtual java/lang/StringBuffer.append
+[ 375] aload 12
+[ 376] invokevirtual java/lang/StringBuffer.append
+[ 377] invokevirtual java/lang/StringBuffer.toString
+[ 378] invokevirtual java/io/PrintStream.println
+[ 379] goto 105
+[ 380] aload_0
+[ 381] getfield e.a
+[ 382] getfield g.do
+[ 383] getfield c.k
+[ 384] ifgt 92
+[ 385] aload_0
+[ 386] getfield e.a
+[ 387] dup
+[ 388] getfield g.a
+[ 389] iconst_1
+[ 390] iadd
+[ 391] putfield g.a
+[ 392] aload_0
+[ 393] getfield e.a
+[ 394] getfield g.do
+[ 395] bipush 6
+[ 396] putfield b.char
+[ 397] aload_0
+[ 398] getfield e.a
+[ 399] ldc 50
+[ 400] putfield g.f
+[ 401] aload_0
+[ 402] getfield e.a
+[ 403] pop
+[ 404] getstatic h.h
+[ 405] ifeq 47
+[ 406] aload_0
+[ 407] getfield e.a
+[ 408] getfield g.for
+[ 409] getfield h.long
+[ 410] invokevirtual k.new
+[ 411] goto 31
+[ 412] astore 12
+[ 413] getstatic System.out
+[ 414] new 23
+[ 415] dup
+[ 416] invokespecial java/lang/StringBuffer.<init>
+[ 417] ldc 52
+[ 418] invokevirtual java/lang/StringBuffer.append
+[ 419] aload 12
+[ 420] invokevirtual java/lang/StringBuffer.append
+[ 421] invokevirtual java/lang/StringBuffer.toString
+[ 422] invokevirtual java/io/PrintStream.println
+[ 423] return

@@ -1,0 +1,42 @@
+// Classe: b
+// Metodo: do
+// Descritor: (Ljavax/microedition/lcdui/Graphics;Lcom/nokia/mid/ui/DirectGraphics;)V
+// Instrucoes: 37
+
+[   0] aload_0
+[   1] iconst_0
+[   2] iconst_0
+[   3] iconst_0
+[   4] invokevirtual b.a
+[   5] aload_0
+[   6] getfield b.else
+[   7] iflt 20
+[   8] aload_0
+[   9] getfield b.else
+[  10] iconst_4
+[  11] if_icmpgt 12
+[  12] aload_0
+[  13] bipush 6
+[  14] putfield b.byte
+[  15] goto 21
+[  16] aload_0
+[  17] getfield b.else
+[  18] iconst_4
+[  19] if_icmple 13
+[  20] aload_0
+[  21] iconst_0
+[  22] putfield b.else
+[  23] aload_0
+[  24] iconst_0
+[  25] putfield b.char
+[  26] aload_0
+[  27] aload_1
+[  28] aload_2
+[  29] invokevirtual b.for
+[  30] aload_0
+[  31] dup
+[  32] getfield b.else
+[  33] iconst_1
+[  34] iadd
+[  35] putfield b.else
+[  36] return

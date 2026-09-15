@@ -1,0 +1,359 @@
+// Classe: h
+// Metodo: try
+// Descritor: (Ljavax/microedition/lcdui/Graphics;)V
+// Instrucoes: 354
+
+[   0] aload_1
+[   1] sipush 204
+[   2] sipush 204
+[   3] sipush 204
+[   4] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[   5] aload_1
+[   6] iconst_0
+[   7] iconst_0
+[   8] aload_0
+[   9] getfield h.new
+[  10] aload_0
+[  11] getfield h.m
+[  12] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  13] aload_1
+[  14] bipush 113
+[  15] bipush 114
+[  16] bipush 114
+[  17] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  18] aload_1
+[  19] bipush 9
+[  20] bipush 8
+[  21] bipush 110
+[  22] bipush 110
+[  23] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  24] aload_1
+[  25] iconst_0
+[  26] iconst_0
+[  27] iconst_0
+[  28] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  29] aload_1
+[  30] bipush 9
+[  31] bipush 8
+[  32] bipush 110
+[  33] bipush 110
+[  34] invokevirtual javax/microedition/lcdui/Graphics.drawRect
+[  35] aload_1
+[  36] sipush 204
+[  37] sipush 204
+[  38] sipush 204
+[  39] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  40] bipush 13
+[  41] istore_2
+[  42] bipush 13
+[  43] istore_3
+[  44] aload_1
+[  45] ldc 112
+[  46] bipush 10
+[  47] iload_2
+[  48] bipush 16
+[  49] iconst_4
+[  50] ior
+[  51] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  52] iload_2
+[  53] iload_3
+[  54] iadd
+[  55] istore_2
+[  56] aload_1
+[  57] ldc 113
+[  58] bipush 10
+[  59] iload_2
+[  60] bipush 16
+[  61] iconst_4
+[  62] ior
+[  63] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  64] iload_2
+[  65] iload_3
+[  66] iadd
+[  67] istore_2
+[  68] aload_1
+[  69] ldc 114
+[  70] bipush 10
+[  71] iload_2
+[  72] bipush 16
+[  73] iconst_4
+[  74] ior
+[  75] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  76] iload_2
+[  77] iload_3
+[  78] iadd
+[  79] istore_2
+[  80] aload_1
+[  81] ldc 115
+[  82] bipush 10
+[  83] iload_2
+[  84] bipush 16
+[  85] iconst_4
+[  86] ior
+[  87] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  88] iload_2
+[  89] iload_3
+[  90] iadd
+[  91] istore_2
+[  92] aload_1
+[  93] ldc 116
+[  94] bipush 10
+[  95] iload_2
+[  96] bipush 16
+[  97] iconst_4
+[  98] ior
+[  99] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 100] iload_2
+[ 101] iload_3
+[ 102] iadd
+[ 103] istore_2
+[ 104] aload_1
+[ 105] ldc 117
+[ 106] bipush 10
+[ 107] iload_2
+[ 108] bipush 16
+[ 109] iconst_4
+[ 110] ior
+[ 111] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 112] iload_2
+[ 113] iload_3
+[ 114] iadd
+[ 115] istore_2
+[ 116] aload_1
+[ 117] ldc 118
+[ 118] bipush 10
+[ 119] iload_2
+[ 120] bipush 16
+[ 121] iconst_4
+[ 122] ior
+[ 123] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 124] bipush 13
+[ 125] istore_2
+[ 126] iload_2
+[ 127] iload_3
+[ 128] aload_0
+[ 129] getfield h.k
+[ 130] iconst_1
+[ 131] isub
+[ 132] imul
+[ 133] iadd
+[ 134] istore_2
+[ 135] aload_0
+[ 136] getfield h.k
+[ 137] tableswitch 419
+[ 138] aload_1
+[ 139] sipush 204
+[ 140] sipush 204
+[ 141] sipush 204
+[ 142] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 143] aload_1
+[ 144] bipush 15
+[ 145] iload_2
+[ 146] iconst_1
+[ 147] isub
+[ 148] bipush 100
+[ 149] bipush 14
+[ 150] iconst_5
+[ 151] iconst_5
+[ 152] invokevirtual javax/microedition/lcdui/Graphics.fillRoundRect
+[ 153] aload_1
+[ 154] bipush 113
+[ 155] bipush 114
+[ 156] bipush 114
+[ 157] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 158] aload_1
+[ 159] ldc 112
+[ 160] bipush 10
+[ 161] iload_2
+[ 162] bipush 16
+[ 163] iconst_4
+[ 164] ior
+[ 165] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 166] goto 324
+[ 167] aload_1
+[ 168] sipush 204
+[ 169] sipush 204
+[ 170] sipush 204
+[ 171] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 172] aload_1
+[ 173] bipush 15
+[ 174] iload_2
+[ 175] iconst_1
+[ 176] isub
+[ 177] bipush 100
+[ 178] bipush 14
+[ 179] iconst_5
+[ 180] iconst_5
+[ 181] invokevirtual javax/microedition/lcdui/Graphics.fillRoundRect
+[ 182] aload_1
+[ 183] bipush 113
+[ 184] bipush 114
+[ 185] bipush 114
+[ 186] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 187] aload_1
+[ 188] ldc 113
+[ 189] bipush 10
+[ 190] iload_2
+[ 191] bipush 16
+[ 192] iconst_4
+[ 193] ior
+[ 194] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 195] goto 270
+[ 196] aload_1
+[ 197] sipush 204
+[ 198] sipush 204
+[ 199] sipush 204
+[ 200] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 201] aload_1
+[ 202] bipush 15
+[ 203] iload_2
+[ 204] iconst_1
+[ 205] isub
+[ 206] bipush 100
+[ 207] bipush 14
+[ 208] iconst_5
+[ 209] iconst_5
+[ 210] invokevirtual javax/microedition/lcdui/Graphics.fillRoundRect
+[ 211] aload_1
+[ 212] bipush 113
+[ 213] bipush 114
+[ 214] bipush 114
+[ 215] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 216] aload_1
+[ 217] ldc 114
+[ 218] bipush 10
+[ 219] iload_2
+[ 220] bipush 16
+[ 221] iconst_4
+[ 222] ior
+[ 223] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 224] goto 216
+[ 225] aload_1
+[ 226] sipush 204
+[ 227] sipush 204
+[ 228] sipush 204
+[ 229] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 230] aload_1
+[ 231] bipush 15
+[ 232] iload_2
+[ 233] iconst_1
+[ 234] isub
+[ 235] bipush 100
+[ 236] bipush 14
+[ 237] iconst_5
+[ 238] iconst_5
+[ 239] invokevirtual javax/microedition/lcdui/Graphics.fillRoundRect
+[ 240] aload_1
+[ 241] bipush 113
+[ 242] bipush 114
+[ 243] bipush 114
+[ 244] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 245] aload_1
+[ 246] ldc 115
+[ 247] bipush 10
+[ 248] iload_2
+[ 249] bipush 16
+[ 250] iconst_4
+[ 251] ior
+[ 252] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 253] goto 162
+[ 254] aload_1
+[ 255] sipush 204
+[ 256] sipush 204
+[ 257] sipush 204
+[ 258] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 259] aload_1
+[ 260] bipush 15
+[ 261] iload_2
+[ 262] iconst_1
+[ 263] isub
+[ 264] bipush 100
+[ 265] bipush 14
+[ 266] iconst_5
+[ 267] iconst_5
+[ 268] invokevirtual javax/microedition/lcdui/Graphics.fillRoundRect
+[ 269] aload_1
+[ 270] bipush 113
+[ 271] bipush 114
+[ 272] bipush 114
+[ 273] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 274] aload_1
+[ 275] ldc 116
+[ 276] bipush 10
+[ 277] iload_2
+[ 278] bipush 16
+[ 279] iconst_4
+[ 280] ior
+[ 281] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 282] goto 108
+[ 283] aload_1
+[ 284] sipush 204
+[ 285] sipush 204
+[ 286] sipush 204
+[ 287] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 288] aload_1
+[ 289] bipush 15
+[ 290] iload_2
+[ 291] iconst_1
+[ 292] isub
+[ 293] bipush 100
+[ 294] bipush 14
+[ 295] iconst_5
+[ 296] iconst_5
+[ 297] invokevirtual javax/microedition/lcdui/Graphics.fillRoundRect
+[ 298] aload_1
+[ 299] bipush 113
+[ 300] bipush 114
+[ 301] bipush 114
+[ 302] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 303] aload_1
+[ 304] ldc 117
+[ 305] bipush 10
+[ 306] iload_2
+[ 307] bipush 16
+[ 308] iconst_4
+[ 309] ior
+[ 310] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 311] goto 54
+[ 312] aload_1
+[ 313] sipush 204
+[ 314] sipush 204
+[ 315] sipush 204
+[ 316] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 317] aload_1
+[ 318] bipush 15
+[ 319] iload_2
+[ 320] iconst_1
+[ 321] isub
+[ 322] bipush 100
+[ 323] bipush 14
+[ 324] iconst_5
+[ 325] iconst_5
+[ 326] invokevirtual javax/microedition/lcdui/Graphics.fillRoundRect
+[ 327] aload_1
+[ 328] bipush 113
+[ 329] bipush 114
+[ 330] bipush 114
+[ 331] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 332] aload_1
+[ 333] ldc 118
+[ 334] bipush 10
+[ 335] iload_2
+[ 336] bipush 16
+[ 337] iconst_4
+[ 338] ior
+[ 339] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 340] aload_1
+[ 341] bipush 113
+[ 342] bipush 114
+[ 343] bipush 114
+[ 344] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 345] aload_1
+[ 346] ldc 89
+[ 347] bipush 9
+[ 348] bipush 119
+[ 349] bipush 16
+[ 350] iconst_4
+[ 351] ior
+[ 352] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 353] return

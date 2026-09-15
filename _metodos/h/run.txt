@@ -1,0 +1,61 @@
+// Classe: h
+// Metodo: run
+// Descritor: ()V
+// Instrucoes: 56
+
+[   0] invokestatic java/lang/Thread.currentThread
+[   1] astore_1
+[   2] goto 72
+[   3] invokestatic java/lang/System.currentTimeMillis
+[   4] lstore_2
+[   5] iconst_0
+[   6] putstatic h.byte
+[   7] aload_0
+[   8] invokevirtual javax/microedition/lcdui/Canvas.repaint
+[   9] aload_0
+[  10] invokevirtual javax/microedition/lcdui/Canvas.serviceRepaints
+[  11] iconst_1
+[  12] putstatic h.byte
+[  13] invokestatic java/lang/System.currentTimeMillis
+[  14] lload_2
+[  15] lsub
+[  16] lstore 4
+[  17] lload 4
+[  18] ldc2_w 69
+[  19] lcmp
+[  20] ifge 33
+[  21] aload_0
+[  22] astore 6
+[  23] aload 6
+[  24] monitorenter
+[  25] aload_0
+[  26] ldc2_w 69
+[  27] lload 4
+[  28] lsub
+[  29] invokevirtual java/lang/Object.wait
+[  30] aload 6
+[  31] monitorexit
+[  32] goto 14
+[  33] astore 7
+[  34] aload 6
+[  35] monitorexit
+[  36] aload 7
+[  37] athrow
+[  38] invokestatic java/lang/Thread.yield
+[  39] aload_1
+[  40] aload_0
+[  41] getfield h.x
+[  42] if_acmpeq -74
+[  43] goto 29
+[  44] astore_2
+[  45] getstatic System.out
+[  46] new 48
+[  47] dup
+[  48] invokespecial java/lang/StringBuffer.<init>
+[  49] ldc 74
+[  50] invokevirtual java/lang/StringBuffer.append
+[  51] aload_2
+[  52] invokevirtual java/lang/StringBuffer.append
+[  53] invokevirtual java/lang/StringBuffer.toString
+[  54] invokevirtual java/io/PrintStream.println
+[  55] return

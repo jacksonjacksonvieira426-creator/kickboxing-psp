@@ -1,0 +1,20 @@
+// Classe: c
+// Metodo: <init>
+// Descritor: (Lg;I)V
+// Instrucoes: 15
+
+[   0] aload_0
+[   1] aload_1
+[   2] iload_2
+[   3] iconst_0
+[   4] invokespecial b.<init>
+[   5] aload_0
+[   6] sipush 150
+[   7] putfield c.k
+[   8] aload_0
+[   9] iconst_0
+[  10] putfield c.j
+[  11] aload_0
+[  12] aload_1
+[  13] putfield c.f
+[  14] return

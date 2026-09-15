@@ -1,0 +1,19 @@
+// Classe: g
+// Metodo: case
+// Descritor: ()V
+// Instrucoes: 14
+
+[   0] aload_0
+[   1] iconst_0
+[   2] aload_0
+[   3] pop
+[   4] getstatic h.o
+[   5] invokevirtual javax/microedition/lcdui/Image.getWidth
+[   6] aload_0
+[   7] getfield g.e
+[   8] isub
+[   9] iconst_2
+[  10] idiv
+[  11] isub
+[  12] putfield g.null
+[  13] return

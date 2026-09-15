@@ -1,0 +1,51 @@
+// Classe: h
+// Metodo: case
+// Descritor: (Ljavax/microedition/lcdui/Graphics;)V
+// Instrucoes: 46
+
+[   0] aload_1
+[   1] sipush 255
+[   2] sipush 255
+[   3] sipush 255
+[   4] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[   5] aload_1
+[   6] iconst_0
+[   7] iconst_0
+[   8] aload_0
+[   9] getfield h.new
+[  10] aload_0
+[  11] getfield h.m
+[  12] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  13] getstatic h.a
+[  14] ifnull 16
+[  15] aload_1
+[  16] getstatic h.a
+[  17] iconst_0
+[  18] iconst_0
+[  19] bipush 16
+[  20] iconst_4
+[  21] ior
+[  22] invokevirtual javax/microedition/lcdui/Graphics.drawImage
+[  23] aload_1
+[  24] iconst_0
+[  25] iconst_0
+[  26] bipush 8
+[  27] invokestatic javax/microedition/lcdui/Font.getFont
+[  28] invokevirtual javax/microedition/lcdui/Graphics.setFont
+[  29] aload_1
+[  30] iconst_0
+[  31] iconst_0
+[  32] iconst_0
+[  33] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  34] aload_1
+[  35] ldc 99
+[  36] iconst_2
+[  37] aload_0
+[  38] getfield h.m
+[  39] bipush 10
+[  40] isub
+[  41] bipush 16
+[  42] iconst_4
+[  43] ior
+[  44] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  45] return

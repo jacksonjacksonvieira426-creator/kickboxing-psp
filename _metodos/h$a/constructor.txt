@@ -1,0 +1,23 @@
+// Classe: h$a
+// Metodo: <init>
+// Descritor: (Lh;Lh;)V
+// Instrucoes: 18
+
+[   0] aload_0
+[   1] invokespecial java/lang/Object.<init>
+[   2] aload_0
+[   3] aload_1
+[   4] putfield h$a.this$0
+[   5] aload_0
+[   6] aload_2
+[   7] putfield h$a.a
+[   8] aload_0
+[   9] new 4
+[  10] dup
+[  11] aload_0
+[  12] invokespecial java/lang/Thread.<init>
+[  13] putfield h$a.if
+[  14] aload_0
+[  15] getfield h$a.if
+[  16] invokevirtual java/lang/Thread.start
+[  17] return

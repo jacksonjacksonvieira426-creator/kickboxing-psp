@@ -1,0 +1,41 @@
+// Classe: KickBoxing
+// Metodo: commandAction
+// Descritor: (Ljavax/microedition/lcdui/Command;Ljavax/microedition/lcdui/Displayable;)V
+// Instrucoes: 36
+
+[   0] aload_1
+[   1] invokevirtual javax/microedition/lcdui/Command.getCommandType
+[   2] iconst_2
+[   3] if_icmpne 49
+[   4] aload_0
+[   5] pop
+[   6] getstatic h.u
+[   7] aload_0
+[   8] pop
+[   9] getstatic j.case
+[  10] aload_0
+[  11] getfield KickBoxing.if
+[  12] invokevirtual javax/microedition/lcdui/TextField.getString
+[  13] aastore
+[  14] aload_0
+[  15] pop
+[  16] invokestatic j.if
+[  17] aload_0
+[  18] pop
+[  19] getstatic h.null
+[  20] invokevirtual j.for
+[  21] aload_0
+[  22] getfield KickBoxing.do
+[  23] iconst_0
+[  24] putfield h.g
+[  25] aload_0
+[  26] pop
+[  27] bipush 44
+[  28] putstatic h.for
+[  29] aload_0
+[  30] getfield KickBoxing.int
+[  31] aload_0
+[  32] getfield KickBoxing.do
+[  33] invokevirtual javax/microedition/lcdui/Display.setCurrent
+[  34] invokestatic java/lang/System.gc
+[  35] return

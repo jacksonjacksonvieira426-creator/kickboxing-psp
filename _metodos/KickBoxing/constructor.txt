@@ -1,0 +1,18 @@
+// Classe: KickBoxing
+// Metodo: <init>
+// Descritor: ()V
+// Instrucoes: 13
+
+[   0] aload_0
+[   1] invokespecial javax/microedition/midlet/MIDlet.<init>
+[   2] aload_0
+[   3] aload_0
+[   4] invokestatic javax/microedition/lcdui/Display.getDisplay
+[   5] putfield KickBoxing.int
+[   6] aload_0
+[   7] new 4
+[   8] dup
+[   9] aload_0
+[  10] invokespecial h.<init>
+[  11] putfield KickBoxing.do
+[  12] return

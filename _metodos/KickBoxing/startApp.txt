@@ -1,0 +1,8 @@
+// Classe: KickBoxing
+// Metodo: startApp
+// Descritor: ()V
+// Instrucoes: 3
+
+[   0] aload_0
+[   1] invokevirtual KickBoxing.if
+[   2] return

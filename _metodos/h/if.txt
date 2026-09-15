@@ -1,0 +1,224 @@
+// Classe: h
+// Metodo: if
+// Descritor: (Ljavax/microedition/lcdui/Graphics;)V
+// Instrucoes: 219
+
+[   0] aload_1
+[   1] sipush 204
+[   2] sipush 204
+[   3] sipush 204
+[   4] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[   5] aload_1
+[   6] iconst_0
+[   7] iconst_0
+[   8] aload_0
+[   9] getfield h.new
+[  10] aload_0
+[  11] getfield h.m
+[  12] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  13] aload_1
+[  14] bipush 113
+[  15] bipush 114
+[  16] bipush 114
+[  17] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  18] aload_1
+[  19] bipush 7
+[  20] bipush 8
+[  21] bipush 114
+[  22] bipush 110
+[  23] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  24] aload_1
+[  25] iconst_0
+[  26] iconst_0
+[  27] iconst_0
+[  28] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  29] aload_1
+[  30] bipush 7
+[  31] bipush 8
+[  32] bipush 114
+[  33] bipush 110
+[  34] invokevirtual javax/microedition/lcdui/Graphics.drawRect
+[  35] aload_1
+[  36] sipush 204
+[  37] sipush 204
+[  38] sipush 204
+[  39] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  40] aload_1
+[  41] iconst_0
+[  42] iconst_1
+[  43] bipush 8
+[  44] invokestatic javax/microedition/lcdui/Font.getFont
+[  45] invokevirtual javax/microedition/lcdui/Graphics.setFont
+[  46] aload_1
+[  47] ldc 150
+[  48] aload_0
+[  49] getfield h.new
+[  50] iconst_2
+[  51] idiv
+[  52] bipush 13
+[  53] bipush 16
+[  54] iconst_1
+[  55] ior
+[  56] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  57] aload_1
+[  58] sipush 255
+[  59] sipush 255
+[  60] sipush 255
+[  61] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  62] aload_1
+[  63] aload_0
+[  64] getfield h.new
+[  65] bipush 26
+[  66] isub
+[  67] iconst_2
+[  68] idiv
+[  69] bipush 26
+[  70] bipush 26
+[  71] bipush 40
+[  72] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  73] aload_1
+[  74] aload_0
+[  75] getfield h.new
+[  76] getstatic h.f
+[  77] getstatic g.byte
+[  78] aaload
+[  79] iconst_0
+[  80] aaload
+[  81] getfield a.for
+[  82] isub
+[  83] iconst_2
+[  84] idiv
+[  85] bipush 29
+[  86] getstatic h.f
+[  87] getstatic g.byte
+[  88] aaload
+[  89] iconst_0
+[  90] aaload
+[  91] getfield a.for
+[  92] getstatic h.f
+[  93] getstatic g.byte
+[  94] aaload
+[  95] iconst_0
+[  96] aaload
+[  97] getfield a.do
+[  98] invokevirtual javax/microedition/lcdui/Graphics.setClip
+[  99] getstatic h.c
+[ 100] getstatic g.byte
+[ 101] aaload
+[ 102] ifnonnull 39
+[ 103] getstatic h.c
+[ 104] getstatic g.byte
+[ 105] new 48
+[ 106] dup
+[ 107] invokespecial java/lang/StringBuffer.<init>
+[ 108] ldc 143
+[ 109] invokevirtual java/lang/StringBuffer.append
+[ 110] getstatic g.byte
+[ 111] invokevirtual java/lang/StringBuffer.append
+[ 112] ldc 144
+[ 113] invokevirtual java/lang/StringBuffer.append
+[ 114] invokevirtual java/lang/StringBuffer.toString
+[ 115] invokestatic javax/microedition/lcdui/Image.createImage
+[ 116] aastore
+[ 117] goto 12
+[ 118] astore_2
+[ 119] getstatic System.out
+[ 120] ldc 152
+[ 121] invokevirtual java/io/PrintStream.println
+[ 122] getstatic h.c
+[ 123] getstatic g.byte
+[ 124] aaload
+[ 125] ifnull 52
+[ 126] aload_1
+[ 127] getstatic h.c
+[ 128] getstatic g.byte
+[ 129] aaload
+[ 130] aload_0
+[ 131] getfield h.new
+[ 132] getstatic h.f
+[ 133] getstatic g.byte
+[ 134] aaload
+[ 135] iconst_0
+[ 136] aaload
+[ 137] getfield a.for
+[ 138] isub
+[ 139] iconst_2
+[ 140] idiv
+[ 141] getstatic h.f
+[ 142] getstatic g.byte
+[ 143] aaload
+[ 144] iconst_0
+[ 145] aaload
+[ 146] getfield a.a
+[ 147] isub
+[ 148] bipush 29
+[ 149] bipush 16
+[ 150] iconst_4
+[ 151] ior
+[ 152] invokevirtual javax/microedition/lcdui/Graphics.drawImage
+[ 153] aload_1
+[ 154] iconst_0
+[ 155] iconst_0
+[ 156] aload_0
+[ 157] getfield h.new
+[ 158] aload_0
+[ 159] getfield h.m
+[ 160] invokevirtual javax/microedition/lcdui/Graphics.setClip
+[ 161] aload_1
+[ 162] iconst_0
+[ 163] iconst_0
+[ 164] iconst_0
+[ 165] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 166] aload_1
+[ 167] aload_0
+[ 168] getfield h.new
+[ 169] bipush 26
+[ 170] isub
+[ 171] iconst_2
+[ 172] idiv
+[ 173] bipush 26
+[ 174] bipush 26
+[ 175] bipush 40
+[ 176] invokevirtual javax/microedition/lcdui/Graphics.drawRect
+[ 177] aload_1
+[ 178] sipush 204
+[ 179] sipush 204
+[ 180] sipush 204
+[ 181] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 182] aload_1
+[ 183] ldc 147
+[ 184] aload_0
+[ 185] getfield h.new
+[ 186] bipush 26
+[ 187] isub
+[ 188] iconst_2
+[ 189] idiv
+[ 190] bipush 10
+[ 191] isub
+[ 192] bipush 46
+[ 193] bipush 16
+[ 194] iconst_4
+[ 195] ior
+[ 196] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 197] aload_1
+[ 198] ldc 148
+[ 199] aload_0
+[ 200] getfield h.new
+[ 201] bipush 26
+[ 202] isub
+[ 203] iconst_2
+[ 204] idiv
+[ 205] bipush 26
+[ 206] iadd
+[ 207] bipush 8
+[ 208] iadd
+[ 209] bipush 46
+[ 210] bipush 16
+[ 211] iconst_4
+[ 212] ior
+[ 213] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 214] aload_0
+[ 215] aload_1
+[ 216] getstatic g.byte
+[ 217] invokevirtual h.a
+[ 218] return

@@ -1,0 +1,73 @@
+// Classe: c
+// Metodo: a
+// Descritor: ()Z
+// Instrucoes: 68
+
+[   0] aload_0
+[   1] getfield c.f
+[   2] getfield g.b
+[   3] getfield b.new
+[   4] ifne 29
+[   5] aload_0
+[   6] getfield c.f
+[   7] getfield g.b
+[   8] getfield b.int
+[   9] ifne 16
+[  10] aload_0
+[  11] getfield c.f
+[  12] getfield g.b
+[  13] getfield b.for
+[  14] ifeq 98
+[  15] new 20
+[  16] dup
+[  17] invokespecial d.<init>
+[  18] astore_1
+[  19] aload_1
+[  20] aload_0
+[  21] getfield c.f
+[  22] getfield g.if
+[  23] aload_0
+[  24] getfield b.null
+[  25] iaload
+[  26] invokevirtual d.a
+[  27] istore_2
+[  28] iload_2
+[  29] iconst_1
+[  30] if_icmpne 66
+[  31] aload_0
+[  32] getfield b.h
+[  33] iconst_1
+[  34] if_icmpne 21
+[  35] aload_0
+[  36] iconst_1
+[  37] invokevirtual c.if
+[  38] aload_0
+[  39] iconst_1
+[  40] invokevirtual c.if
+[  41] aload_0
+[  42] iconst_1
+[  43] putfield b.char
+[  44] goto 18
+[  45] aload_0
+[  46] iconst_1
+[  47] invokevirtual c.a
+[  48] aload_0
+[  49] iconst_1
+[  50] invokevirtual c.a
+[  51] aload_0
+[  52] iconst_1
+[  53] putfield b.char
+[  54] aload_0
+[  55] getfield c.f
+[  56] getfield g.for
+[  57] invokevirtual javax/microedition/lcdui/Canvas.repaint
+[  58] aload_0
+[  59] getfield c.f
+[  60] getfield g.for
+[  61] invokevirtual javax/microedition/lcdui/Canvas.serviceRepaints
+[  62] iconst_1
+[  63] ireturn
+[  64] iconst_0
+[  65] ireturn
+[  66] iconst_0
+[  67] ireturn

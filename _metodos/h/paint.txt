@@ -1,0 +1,99 @@
+// Classe: h
+// Metodo: paint
+// Descritor: (Ljavax/microedition/lcdui/Graphics;)V
+// Instrucoes: 94
+
+[   0] invokestatic java/lang/Runtime.getRuntime
+[   1] invokevirtual java/lang/Runtime.freeMemory
+[   2] lstore_2
+[   3] invokestatic java/lang/System.gc
+[   4] aload_1
+[   5] astore 4
+[   6] aload_0
+[   7] getfield h.w
+[   8] ifnull 11
+[   9] aload_0
+[  10] getfield h.w
+[  11] invokevirtual javax/microedition/lcdui/Image.getGraphics
+[  12] astore_1
+[  13] getstatic h.for
+[  14] lookupswitch
+[  15] aload_0
+[  16] aload_1
+[  17] invokevirtual h.do
+[  18] goto 162
+[  19] aload_0
+[  20] getfield h.else
+[  21] aload_1
+[  22] invokevirtual g.new
+[  23] goto 151
+[  24] aload_0
+[  25] getfield h.n
+[  26] ifnull 8
+[  27] aload_0
+[  28] aconst_null
+[  29] putfield h.n
+[  30] getstatic h.h
+[  31] ifeq 41
+[  32] aload_0
+[  33] getfield h.long
+[  34] invokevirtual k.for
+[  35] goto 31
+[  36] astore 5
+[  37] getstatic System.out
+[  38] new 48
+[  39] dup
+[  40] invokespecial java/lang/StringBuffer.<init>
+[  41] ldc 161
+[  42] invokevirtual java/lang/StringBuffer.append
+[  43] aload 5
+[  44] invokevirtual java/lang/StringBuffer.append
+[  45] invokevirtual java/lang/StringBuffer.toString
+[  46] invokevirtual java/io/PrintStream.println
+[  47] aload_0
+[  48] aload_1
+[  49] invokevirtual h.case
+[  50] goto 87
+[  51] aload_0
+[  52] getfield h.long
+[  53] invokevirtual k.if
+[  54] aload_0
+[  55] aload_1
+[  56] invokevirtual h.try
+[  57] goto 72
+[  58] aload_0
+[  59] aload_1
+[  60] invokevirtual h.else
+[  61] goto 64
+[  62] aload_0
+[  63] aload_1
+[  64] invokevirtual h.if
+[  65] goto 56
+[  66] aload_0
+[  67] aload_1
+[  68] invokevirtual h.byte
+[  69] goto 48
+[  70] aload_0
+[  71] aload_1
+[  72] invokevirtual h.a
+[  73] goto 40
+[  74] aload_0
+[  75] aload_1
+[  76] invokevirtual h.int
+[  77] goto 32
+[  78] aload_0
+[  79] aload_1
+[  80] invokevirtual h.new
+[  81] goto 24
+[  82] aload_0
+[  83] aload_1
+[  84] invokevirtual h.for
+[  85] goto 16
+[  86] aload_0
+[  87] aload_1
+[  88] invokevirtual h.char
+[  89] goto 8
+[  90] aload_0
+[  91] aload_1
+[  92] invokevirtual h.goto
+[  93] return

@@ -1,0 +1,95 @@
+// Classe: j
+// Metodo: for
+// Descritor: ()V
+// Instrucoes: 90
+
+[   0] iconst_0
+[   1] istore_1
+[   2] goto 173
+[   3] ldc 18
+[   4] putstatic j.else
+[   5] iconst_0
+[   6] putstatic j.void
+[   7] getstatic j.if
+[   8] iload_1
+[   9] aaload
+[  10] iconst_1
+[  11] invokestatic javax/microedition/rms/RecordStore.openRecordStore
+[  12] putstatic j.int
+[  13] getstatic j.int
+[  14] invokevirtual javax/microedition/rms/RecordStore.getNumRecords
+[  15] istore_2
+[  16] iload_2
+[  17] ifle 101
+[  18] getstatic j.int
+[  19] getstatic j.try
+[  20] invokevirtual javax/microedition/rms/RecordStore.getRecord
+[  21] putstatic j.char
+[  22] new 27
+[  23] dup
+[  24] new 28
+[  25] dup
+[  26] getstatic j.char
+[  27] invokespecial java/io/ByteArrayInputStream.<init>
+[  28] invokespecial java/io/DataInputStream.<init>
+[  29] astore_3
+[  30] aload_3
+[  31] invokevirtual java/io/DataInputStream.readBoolean
+[  32] istore 4
+[  33] aload_3
+[  34] invokevirtual java/io/DataInputStream.readInt
+[  35] putstatic j.void
+[  36] getstatic j.int
+[  37] getstatic j.null
+[  38] invokevirtual javax/microedition/rms/RecordStore.getRecord
+[  39] putstatic j.long
+[  40] new 27
+[  41] dup
+[  42] new 28
+[  43] dup
+[  44] getstatic j.long
+[  45] invokespecial java/io/ByteArrayInputStream.<init>
+[  46] invokespecial java/io/DataInputStream.<init>
+[  47] astore 5
+[  48] aload 5
+[  49] invokevirtual java/io/DataInputStream.readBoolean
+[  50] istore 6
+[  51] aload 5
+[  52] invokevirtual java/io/DataInputStream.readUTF
+[  53] putstatic j.else
+[  54] getstatic j.int
+[  55] invokevirtual javax/microedition/rms/RecordStore.closeRecordStore
+[  56] goto 18
+[  57] ldc 18
+[  58] putstatic j.else
+[  59] iconst_0
+[  60] putstatic j.void
+[  61] getstatic j.int
+[  62] invokevirtual javax/microedition/rms/RecordStore.closeRecordStore
+[  63] getstatic h.t
+[  64] iload_1
+[  65] iload_1
+[  66] iastore
+[  67] getstatic h.u
+[  68] iload_1
+[  69] getstatic j.else
+[  70] aastore
+[  71] getstatic h.s
+[  72] iload_1
+[  73] getstatic j.void
+[  74] iastore
+[  75] iinc 1
+[  76] iload_1
+[  77] getstatic j.goto
+[  78] if_icmplt -174
+[  79] goto 12
+[  80] astore_1
+[  81] getstatic System.out
+[  82] ldc 40
+[  83] invokevirtual java/io/PrintStream.println
+[  84] goto 12
+[  85] astore_1
+[  86] getstatic System.out
+[  87] ldc 43
+[  88] invokevirtual java/io/PrintStream.println
+[  89] return

@@ -1,0 +1,11 @@
+// Classe: h
+// Metodo: keyRepeated
+// Descritor: (I)V
+// Instrucoes: 6
+
+[   0] getstatic h.for
+[   1] ifne 8
+[   2] aload_0
+[   3] iload_1
+[   4] invokevirtual h.keyPressed
+[   5] return

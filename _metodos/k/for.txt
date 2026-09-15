@@ -1,0 +1,9 @@
+// Classe: k
+// Metodo: for
+// Descritor: ()V
+// Instrucoes: 4
+
+[   0] aload_0
+[   1] getstatic k.if
+[   2] invokevirtual k.a
+[   3] return

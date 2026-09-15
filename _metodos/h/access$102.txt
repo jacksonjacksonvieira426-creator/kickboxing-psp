@@ -1,0 +1,10 @@
+// Classe: h
+// Metodo: access$102
+// Descritor: (Lh;Ljava/lang/Thread;)Ljava/lang/Thread;
+// Instrucoes: 5
+
+[   0] aload_0
+[   1] aload_1
+[   2] dup_x1
+[   3] putfield h.x
+[   4] areturn

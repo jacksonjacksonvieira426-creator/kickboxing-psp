@@ -1,0 +1,17 @@
+// Classe: f
+// Metodo: <init>
+// Descritor: (Lg;I)V
+// Instrucoes: 12
+
+[   0] aload_0
+[   1] aload_1
+[   2] iload_2
+[   3] iconst_1
+[   4] invokespecial b.<init>
+[   5] aload_0
+[   6] sipush 150
+[   7] putfield f.l
+[   8] aload_0
+[   9] aload_1
+[  10] putfield f.f
+[  11] return

@@ -1,0 +1,154 @@
+// Classe: c
+// Metodo: if
+// Descritor: ()V
+// Instrucoes: 149
+
+[   0] new 20
+[   1] dup
+[   2] invokespecial d.<init>
+[   3] astore_1
+[   4] aload_1
+[   5] iconst_3
+[   6] iconst_4
+[   7] invokevirtual d.a
+[   8] istore_2
+[   9] aload_1
+[  10] iconst_1
+[  11] invokevirtual d.a
+[  12] istore_3
+[  13] aload_0
+[  14] getfield c.j
+[  15] bipush 9
+[  16] if_icmpgt 242
+[  17] aload_0
+[  18] getfield c.f
+[  19] getfield g.b
+[  20] getfield b.e
+[  21] aload_0
+[  22] getfield b.e
+[  23] if_icmple 98
+[  24] aload_0
+[  25] iconst_1
+[  26] putfield b.h
+[  27] aload_0
+[  28] getfield c.f
+[  29] getfield g.b
+[  30] getfield b.e
+[  31] aload_0
+[  32] getfield b.e
+[  33] getstatic h.f
+[  34] aload_0
+[  35] getfield b.null
+[  36] aaload
+[  37] aload_0
+[  38] getfield b.byte
+[  39] aaload
+[  40] getfield a.for
+[  41] iadd
+[  42] if_icmpge 36
+[  43] aload_0
+[  44] invokevirtual c.a
+[  45] pop
+[  46] iload_3
+[  47] iconst_1
+[  48] if_icmpne 190
+[  49] aload_0
+[  50] getfield b.long
+[  51] ifne 183
+[  52] aload_0
+[  53] aload_0
+[  54] getfield b.e
+[  55] putfield b.void
+[  56] aload_0
+[  57] iload_2
+[  58] putfield b.char
+[  59] goto 167
+[  60] iload_3
+[  61] iconst_1
+[  62] if_icmpne 162
+[  63] aload_0
+[  64] iconst_1
+[  65] putfield b.h
+[  66] aload_0
+[  67] iconst_0
+[  68] invokevirtual c.a
+[  69] aload_0
+[  70] iconst_1
+[  71] putfield b.char
+[  72] goto 144
+[  73] aload_0
+[  74] getfield b.e
+[  75] aload_0
+[  76] getfield c.f
+[  77] getfield g.b
+[  78] getfield b.e
+[  79] if_icmple 127
+[  80] aload_0
+[  81] iconst_0
+[  82] putfield b.h
+[  83] aload_0
+[  84] getfield b.e
+[  85] bipush -3
+[  86] aload_0
+[  87] getfield c.f
+[  88] getfield g.b
+[  89] getfield b.e
+[  90] iadd
+[  91] getstatic h.f
+[  92] aload_0
+[  93] getfield c.f
+[  94] getfield g.b
+[  95] getfield b.null
+[  96] aaload
+[  97] aload_0
+[  98] getfield c.f
+[  99] getfield g.b
+[ 100] getfield b.byte
+[ 101] aaload
+[ 102] getfield a.for
+[ 103] iadd
+[ 104] if_icmpge 36
+[ 105] aload_0
+[ 106] invokevirtual c.a
+[ 107] pop
+[ 108] iload_3
+[ 109] iconst_1
+[ 110] if_icmpne 63
+[ 111] aload_0
+[ 112] getfield b.long
+[ 113] ifne 56
+[ 114] aload_0
+[ 115] aload_0
+[ 116] getfield b.e
+[ 117] putfield b.void
+[ 118] aload_0
+[ 119] iload_2
+[ 120] putfield b.char
+[ 121] goto 40
+[ 122] iload_3
+[ 123] iconst_1
+[ 124] if_icmpne 35
+[ 125] aload_0
+[ 126] iconst_0
+[ 127] putfield b.h
+[ 128] aload_0
+[ 129] iconst_0
+[ 130] invokevirtual c.if
+[ 131] aload_0
+[ 132] iconst_1
+[ 133] putfield b.char
+[ 134] goto 17
+[ 135] aload_0
+[ 136] getfield c.j
+[ 137] bipush 9
+[ 138] if_icmple 8
+[ 139] aload_0
+[ 140] iconst_0
+[ 141] putfield c.j
+[ 142] aload_0
+[ 143] dup
+[ 144] getfield c.j
+[ 145] iconst_1
+[ 146] iadd
+[ 147] putfield c.j
+[ 148] return

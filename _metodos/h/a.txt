@@ -1,0 +1,169 @@
+// Classe: h
+// Metodo: a
+// Descritor: (Ljavax/microedition/lcdui/Graphics;I)V
+// Instrucoes: 164
+
+[   0] aload_1
+[   1] sipush 204
+[   2] sipush 204
+[   3] sipush 204
+[   4] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[   5] aload_1
+[   6] iconst_0
+[   7] iconst_0
+[   8] bipush 8
+[   9] invokestatic javax/microedition/lcdui/Font.getFont
+[  10] invokevirtual javax/microedition/lcdui/Graphics.setFont
+[  11] bipush 68
+[  12] istore_3
+[  13] bipush 13
+[  14] istore 4
+[  15] bipush 12
+[  16] istore 5
+[  17] aload_1
+[  18] new 48
+[  19] dup
+[  20] invokespecial java/lang/StringBuffer.<init>
+[  21] ldc 122
+[  22] invokevirtual java/lang/StringBuffer.append
+[  23] aload_0
+[  24] getfield h.else
+[  25] getfield g.void
+[  26] iload_2
+[  27] aaload
+[  28] invokevirtual java/lang/StringBuffer.append
+[  29] invokevirtual java/lang/StringBuffer.toString
+[  30] iload 5
+[  31] iload_3
+[  32] bipush 16
+[  33] iconst_4
+[  34] ior
+[  35] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  36] iload_3
+[  37] iload 4
+[  38] iadd
+[  39] istore_3
+[  40] aload_0
+[  41] getfield h.else
+[  42] getfield g.c
+[  43] iload_2
+[  44] iaload
+[  45] tableswitch 70
+[  46] aload_1
+[  47] ldc 126
+[  48] iload 5
+[  49] iload_3
+[  50] bipush 16
+[  51] iconst_4
+[  52] ior
+[  53] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  54] goto 32
+[  55] aload_1
+[  56] ldc 127
+[  57] iload 5
+[  58] iload_3
+[  59] bipush 16
+[  60] iconst_4
+[  61] ior
+[  62] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  63] goto 16
+[  64] aload_1
+[  65] ldc 128
+[  66] iload 5
+[  67] iload_3
+[  68] bipush 16
+[  69] iconst_4
+[  70] ior
+[  71] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  72] iload_3
+[  73] iload 4
+[  74] iadd
+[  75] istore_3
+[  76] aload_0
+[  77] getfield h.else
+[  78] getfield g.d
+[  79] iload_2
+[  80] iaload
+[  81] tableswitch 74
+[  82] aload_1
+[  83] ldc 130
+[  84] iload 5
+[  85] iload_3
+[  86] bipush 16
+[  87] iconst_4
+[  88] ior
+[  89] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  90] goto 32
+[  91] aload_1
+[  92] ldc 131
+[  93] iload 5
+[  94] iload_3
+[  95] bipush 16
+[  96] iconst_4
+[  97] ior
+[  98] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  99] goto 16
+[ 100] aload_1
+[ 101] ldc 132
+[ 102] iload 5
+[ 103] iload_3
+[ 104] bipush 16
+[ 105] iconst_4
+[ 106] ior
+[ 107] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 108] iload_3
+[ 109] iload 4
+[ 110] iadd
+[ 111] istore_3
+[ 112] aload_0
+[ 113] getfield h.else
+[ 114] getfield g.if
+[ 115] iload_2
+[ 116] iaload
+[ 117] tableswitch 70
+[ 118] aload_1
+[ 119] ldc 134
+[ 120] iload 5
+[ 121] iload_3
+[ 122] bipush 16
+[ 123] iconst_4
+[ 124] ior
+[ 125] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 126] goto 32
+[ 127] aload_1
+[ 128] ldc 135
+[ 129] iload 5
+[ 130] iload_3
+[ 131] bipush 16
+[ 132] iconst_4
+[ 133] ior
+[ 134] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 135] goto 16
+[ 136] aload_1
+[ 137] ldc 136
+[ 138] iload 5
+[ 139] iload_3
+[ 140] bipush 16
+[ 141] iconst_4
+[ 142] ior
+[ 143] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 144] iload_3
+[ 145] iload 4
+[ 146] iconst_1
+[ 147] iadd
+[ 148] iadd
+[ 149] istore_3
+[ 150] aload_1
+[ 151] bipush 113
+[ 152] bipush 114
+[ 153] bipush 114
+[ 154] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 155] aload_1
+[ 156] ldc 89
+[ 157] bipush 9
+[ 158] bipush 119
+[ 159] bipush 16
+[ 160] iconst_4
+[ 161] ior
+[ 162] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 163] return

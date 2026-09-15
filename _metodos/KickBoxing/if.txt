@@ -1,0 +1,11 @@
+// Classe: KickBoxing
+// Metodo: if
+// Descritor: ()V
+// Instrucoes: 6
+
+[   0] aload_0
+[   1] getfield KickBoxing.int
+[   2] aload_0
+[   3] getfield KickBoxing.do
+[   4] invokevirtual javax/microedition/lcdui/Display.setCurrent
+[   5] return

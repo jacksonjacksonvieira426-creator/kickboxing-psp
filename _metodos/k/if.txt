@@ -1,0 +1,14 @@
+// Classe: k
+// Metodo: if
+// Descritor: ()V
+// Instrucoes: 9
+
+[   0] getstatic k.if
+[   1] invokevirtual com/nokia/mid/sound/Sound.stop
+[   2] getstatic k.for
+[   3] invokevirtual com/nokia/mid/sound/Sound.stop
+[   4] getstatic k.a
+[   5] invokevirtual com/nokia/mid/sound/Sound.stop
+[   6] getstatic k.do
+[   7] invokevirtual com/nokia/mid/sound/Sound.stop
+[   8] return

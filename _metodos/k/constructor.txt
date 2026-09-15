@@ -1,0 +1,35 @@
+// Classe: k
+// Metodo: <init>
+// Descritor: (Ljavax/microedition/midlet/MIDlet;)V
+// Instrucoes: 30
+
+[   0] aload_0
+[   1] invokespecial java/lang/Object.<init>
+[   2] sipush 1000
+[   3] newarray 8
+[   4] astore_2
+[   5] aload_1
+[   6] ldc 2
+[   7] aload_2
+[   8] invokestatic k.a
+[   9] putstatic k.if
+[  10] aload_1
+[  11] ldc 5
+[  12] aload_2
+[  13] invokestatic k.a
+[  14] putstatic k.for
+[  15] aload_1
+[  16] ldc 7
+[  17] aload_2
+[  18] invokestatic k.a
+[  19] putstatic k.a
+[  20] aload_1
+[  21] ldc 9
+[  22] aload_2
+[  23] invokestatic k.a
+[  24] putstatic k.do
+[  25] goto 8
+[  26] astore_2
+[  27] aload_2
+[  28] invokevirtual java/lang/Throwable.printStackTrace
+[  29] return

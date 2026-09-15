@@ -1,0 +1,38 @@
+// Classe: g
+// Metodo: byte
+// Descritor: ()V
+// Instrucoes: 33
+
+[   0] aload_0
+[   1] aload_0
+[   2] getfield g.null
+[   3] aload_0
+[   4] getfield g.d
+[   5] getstatic g.char
+[   6] iaload
+[   7] isub
+[   8] putfield g.null
+[   9] aload_0
+[  10] getfield g.null
+[  11] iconst_0
+[  12] aload_0
+[  13] pop
+[  14] getstatic h.o
+[  15] invokevirtual javax/microedition/lcdui/Image.getWidth
+[  16] aload_0
+[  17] getfield g.e
+[  18] isub
+[  19] isub
+[  20] if_icmpge 22
+[  21] aload_0
+[  22] iconst_0
+[  23] aload_0
+[  24] pop
+[  25] getstatic h.o
+[  26] invokevirtual javax/microedition/lcdui/Image.getWidth
+[  27] aload_0
+[  28] getfield g.e
+[  29] isub
+[  30] isub
+[  31] putfield g.null
+[  32] return

@@ -1,0 +1,46 @@
+// Classe: f
+// Metodo: do
+// Descritor: ()V
+// Instrucoes: 41
+
+[   0] aload_0
+[   1] aload_0
+[   2] getfield b.e
+[   3] aload_0
+[   4] getfield f.f
+[   5] getfield g.d
+[   6] aload_0
+[   7] pop
+[   8] getstatic g.char
+[   9] iaload
+[  10] isub
+[  11] putfield b.e
+[  12] aload_0
+[  13] getfield b.e
+[  14] ifge 8
+[  15] aload_0
+[  16] iconst_0
+[  17] putfield b.e
+[  18] aload_0
+[  19] getfield f.f
+[  20] aload_0
+[  21] getfield f.f
+[  22] getfield g.null
+[  23] aload_0
+[  24] getfield f.f
+[  25] getfield g.d
+[  26] aload_0
+[  27] pop
+[  28] getstatic g.char
+[  29] iaload
+[  30] iadd
+[  31] putfield g.null
+[  32] aload_0
+[  33] getfield f.f
+[  34] getfield g.null
+[  35] ifle 11
+[  36] aload_0
+[  37] getfield f.f
+[  38] iconst_0
+[  39] putfield g.null
+[  40] return

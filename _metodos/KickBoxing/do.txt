@@ -1,0 +1,54 @@
+// Classe: KickBoxing
+// Metodo: do
+// Descritor: ()V
+// Instrucoes: 49
+
+[   0] aload_0
+[   1] new 20
+[   2] dup
+[   3] ldc 21
+[   4] invokespecial javax/microedition/lcdui/Form.<init>
+[   5] putfield KickBoxing.for
+[   6] aload_0
+[   7] getfield KickBoxing.for
+[   8] ldc 24
+[   9] invokevirtual javax/microedition/lcdui/Form.append
+[  10] pop
+[  11] aload_0
+[  12] new 26
+[  13] dup
+[  14] ldc 27
+[  15] ldc 27
+[  16] iconst_5
+[  17] iconst_0
+[  18] invokespecial javax/microedition/lcdui/TextField.<init>
+[  19] putfield KickBoxing.if
+[  20] aload_0
+[  21] getfield KickBoxing.for
+[  22] aload_0
+[  23] getfield KickBoxing.if
+[  24] invokevirtual javax/microedition/lcdui/Form.append
+[  25] pop
+[  26] aload_0
+[  27] new 30
+[  28] dup
+[  29] ldc 31
+[  30] iconst_2
+[  31] iconst_1
+[  32] invokespecial javax/microedition/lcdui/Command.<init>
+[  33] putfield KickBoxing.a
+[  34] aload_0
+[  35] getfield KickBoxing.for
+[  36] aload_0
+[  37] getfield KickBoxing.a
+[  38] invokevirtual javax/microedition/lcdui/Displayable.addCommand
+[  39] aload_0
+[  40] getfield KickBoxing.for
+[  41] aload_0
+[  42] invokevirtual javax/microedition/lcdui/Displayable.setCommandListener
+[  43] aload_0
+[  44] getfield KickBoxing.int
+[  45] aload_0
+[  46] getfield KickBoxing.for
+[  47] invokevirtual javax/microedition/lcdui/Display.setCurrent
+[  48] return

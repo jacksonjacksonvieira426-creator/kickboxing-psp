@@ -1,0 +1,749 @@
+// Classe: h
+// Metodo: keyPressed
+// Descritor: (I)V
+// Instrucoes: 744
+
+[   0] aload_0
+[   1] getfield h.void
+[   2] ifne 1766
+[   3] aload_0
+[   4] iconst_1
+[   5] putfield h.void
+[   6] getstatic h.for
+[   7] lookupswitch
+[   8] iload_1
+[   9] aload_0
+[  10] getfield h.do
+[  11] if_icmpne 32
+[  12] aload_0
+[  13] getfield h.q
+[  14] iconst_1
+[  15] if_icmpgt 11
+[  16] aload_0
+[  17] iconst_3
+[  18] putfield h.q
+[  19] goto 1629
+[  20] aload_0
+[  21] dup
+[  22] getfield h.q
+[  23] iconst_1
+[  24] isub
+[  25] putfield h.q
+[  26] goto 1616
+[  27] iload_1
+[  28] aload_0
+[  29] getfield h.case
+[  30] if_icmpne 32
+[  31] aload_0
+[  32] getfield h.q
+[  33] iconst_3
+[  34] if_icmplt 11
+[  35] aload_0
+[  36] iconst_1
+[  37] putfield h.q
+[  38] goto 1592
+[  39] aload_0
+[  40] dup
+[  41] getfield h.q
+[  42] iconst_1
+[  43] iadd
+[  44] putfield h.q
+[  45] goto 1579
+[  46] iload_1
+[  47] bipush 53
+[  48] if_icmpeq 11
+[  49] iload_1
+[  50] aload_0
+[  51] getfield h.v
+[  52] if_icmpne 1565
+[  53] aload_0
+[  54] getfield h.q
+[  55] tableswitch 112
+[  56] getstatic h.h
+[  57] ifne 7
+[  58] iconst_1
+[  59] goto 4
+[  60] iconst_0
+[  61] putstatic h.h
+[  62] getstatic h.h
+[  63] ifeq 13
+[  64] getstatic h.null
+[  65] iconst_1
+[  66] invokevirtual j.do
+[  67] goto 57
+[  68] getstatic h.null
+[  69] iconst_0
+[  70] invokevirtual j.do
+[  71] goto 47
+[  72] getstatic h.null
+[  73] invokevirtual j.a
+[  74] bipush 33
+[  75] putstatic h.for
+[  76] goto 33
+[  77] aload_0
+[  78] getfield h.i
+[  79] ifne 15
+[  80] aload_0
+[  81] iconst_5
+[  82] putfield h.k
+[  83] iconst_2
+[  84] putstatic h.for
+[  85] goto 14
+[  86] aload_0
+[  87] bipush 6
+[  88] putfield h.k
+[  89] bipush 101
+[  90] putstatic h.for
+[  91] goto 1446
+[  92] aload_0
+[  93] getfield h.i
+[  94] ifne 15
+[  95] aload_0
+[  96] iconst_4
+[  97] putfield h.k
+[  98] iconst_2
+[  99] putstatic h.for
+[ 100] goto 1427
+[ 101] aload_0
+[ 102] iconst_5
+[ 103] putfield h.k
+[ 104] bipush 101
+[ 105] putstatic h.for
+[ 106] goto 1414
+[ 107] aload_0
+[ 108] iconst_1
+[ 109] putfield h.k
+[ 110] aload_0
+[ 111] iconst_0
+[ 112] putfield h.i
+[ 113] iconst_2
+[ 114] putstatic h.for
+[ 115] goto 1397
+[ 116] iload_1
+[ 117] bipush 53
+[ 118] if_icmpeq 11
+[ 119] iload_1
+[ 120] aload_0
+[ 121] getfield h.v
+[ 122] if_icmpne 45
+[ 123] aload_0
+[ 124] getfield h.B
+[ 125] ifne 16
+[ 126] aload_0
+[ 127] dup
+[ 128] getfield h.B
+[ 129] iconst_1
+[ 130] iadd
+[ 131] putfield h.B
+[ 132] goto 1363
+[ 133] aload_0
+[ 134] getfield h.i
+[ 135] ifne 10
+[ 136] iconst_2
+[ 137] putstatic h.for
+[ 138] goto 1349
+[ 139] bipush 101
+[ 140] putstatic h.for
+[ 141] goto 1341
+[ 142] iload_1
+[ 143] bipush -7
+[ 144] if_icmpne 1335
+[ 145] aload_0
+[ 146] getfield h.B
+[ 147] ifne 1328
+[ 148] aload_0
+[ 149] getfield h.i
+[ 150] ifne 10
+[ 151] iconst_2
+[ 152] putstatic h.for
+[ 153] goto 1314
+[ 154] bipush 101
+[ 155] putstatic h.for
+[ 156] goto 1306
+[ 157] iload_1
+[ 158] bipush 53
+[ 159] if_icmpeq 11
+[ 160] iload_1
+[ 161] aload_0
+[ 162] getfield h.v
+[ 163] if_icmpne 1292
+[ 164] aload_0
+[ 165] getfield h.i
+[ 166] ifne 10
+[ 167] iconst_2
+[ 168] putstatic h.for
+[ 169] goto 1278
+[ 170] bipush 101
+[ 171] putstatic h.for
+[ 172] goto 1270
+[ 173] iload_1
+[ 174] bipush 53
+[ 175] if_icmpeq 11
+[ 176] iload_1
+[ 177] aload_0
+[ 178] getfield h.v
+[ 179] if_icmpne 45
+[ 180] aload_0
+[ 181] getfield h.j
+[ 182] ifne 16
+[ 183] aload_0
+[ 184] dup
+[ 185] getfield h.j
+[ 186] iconst_1
+[ 187] iadd
+[ 188] putfield h.j
+[ 189] goto 1236
+[ 190] aload_0
+[ 191] getfield h.i
+[ 192] ifne 10
+[ 193] iconst_2
+[ 194] putstatic h.for
+[ 195] goto 1222
+[ 196] bipush 101
+[ 197] putstatic h.for
+[ 198] goto 1214
+[ 199] iload_1
+[ 200] bipush -7
+[ 201] if_icmpne 1208
+[ 202] aload_0
+[ 203] getfield h.j
+[ 204] ifne 1201
+[ 205] aload_0
+[ 206] getfield h.i
+[ 207] ifne 10
+[ 208] iconst_2
+[ 209] putstatic h.for
+[ 210] goto 1187
+[ 211] bipush 101
+[ 212] putstatic h.for
+[ 213] goto 1179
+[ 214] iload_1
+[ 215] bipush 53
+[ 216] if_icmpeq 11
+[ 217] iload_1
+[ 218] aload_0
+[ 219] getfield h.v
+[ 220] if_icmpne 37
+[ 221] aload_0
+[ 222] pop
+[ 223] aload_0
+[ 224] pop
+[ 225] getstatic g.char
+[ 226] iconst_1
+[ 227] iadd
+[ 228] putstatic g.byte
+[ 229] aload_0
+[ 230] pop
+[ 231] getstatic g.byte
+[ 232] iconst_3
+[ 233] if_icmple 9
+[ 234] aload_0
+[ 235] pop
+[ 236] iconst_0
+[ 237] putstatic g.byte
+[ 238] iconst_4
+[ 239] putstatic h.for
+[ 240] goto 1131
+[ 241] iload_1
+[ 242] bipush -3
+[ 243] if_icmpeq 9
+[ 244] iload_1
+[ 245] bipush 52
+[ 246] if_icmpne 30
+[ 247] aload_0
+[ 248] pop
+[ 249] getstatic g.char
+[ 250] iconst_1
+[ 251] isub
+[ 252] putstatic g.char
+[ 253] aload_0
+[ 254] pop
+[ 255] getstatic g.char
+[ 256] ifge 1101
+[ 257] aload_0
+[ 258] pop
+[ 259] iconst_3
+[ 260] putstatic g.char
+[ 261] goto 1092
+[ 262] iload_1
+[ 263] bipush -4
+[ 264] if_icmpeq 9
+[ 265] iload_1
+[ 266] bipush 54
+[ 267] if_icmpne 31
+[ 268] aload_0
+[ 269] pop
+[ 270] getstatic g.char
+[ 271] iconst_1
+[ 272] iadd
+[ 273] putstatic g.char
+[ 274] aload_0
+[ 275] pop
+[ 276] getstatic g.char
+[ 277] iconst_3
+[ 278] if_icmple 1061
+[ 279] aload_0
+[ 280] pop
+[ 281] iconst_0
+[ 282] putstatic g.char
+[ 283] goto 1052
+[ 284] iload_1
+[ 285] bipush -6
+[ 286] if_icmpne 1046
+[ 287] iconst_2
+[ 288] putstatic h.for
+[ 289] goto 1039
+[ 290] iload_1
+[ 291] bipush 53
+[ 292] if_icmpeq 11
+[ 293] iload_1
+[ 294] aload_0
+[ 295] getfield h.v
+[ 296] if_icmpne 17
+[ 297] aload_0
+[ 298] getfield h.else
+[ 299] invokevirtual g.new
+[ 300] iconst_0
+[ 301] putstatic h.for
+[ 302] goto 1011
+[ 303] iload_1
+[ 304] bipush -3
+[ 305] if_icmpeq 9
+[ 306] iload_1
+[ 307] bipush 52
+[ 308] if_icmpne 71
+[ 309] aload_0
+[ 310] pop
+[ 311] getstatic g.byte
+[ 312] iconst_1
+[ 313] isub
+[ 314] putstatic g.byte
+[ 315] aload_0
+[ 316] pop
+[ 317] getstatic g.byte
+[ 318] aload_0
+[ 319] pop
+[ 320] getstatic g.char
+[ 321] if_icmpne 13
+[ 322] aload_0
+[ 323] pop
+[ 324] getstatic g.byte
+[ 325] iconst_1
+[ 326] isub
+[ 327] putstatic g.byte
+[ 328] aload_0
+[ 329] pop
+[ 330] getstatic g.byte
+[ 331] ifge 958
+[ 332] aload_0
+[ 333] pop
+[ 334] getstatic g.char
+[ 335] iconst_3
+[ 336] if_icmpne 12
+[ 337] aload_0
+[ 338] pop
+[ 339] iconst_2
+[ 340] putstatic g.byte
+[ 341] goto 940
+[ 342] aload_0
+[ 343] pop
+[ 344] iconst_3
+[ 345] putstatic g.byte
+[ 346] goto 931
+[ 347] iload_1
+[ 348] bipush -4
+[ 349] if_icmpeq 9
+[ 350] iload_1
+[ 351] bipush 54
+[ 352] if_icmpne 71
+[ 353] aload_0
+[ 354] pop
+[ 355] getstatic g.byte
+[ 356] iconst_1
+[ 357] iadd
+[ 358] putstatic g.byte
+[ 359] aload_0
+[ 360] pop
+[ 361] getstatic g.byte
+[ 362] aload_0
+[ 363] pop
+[ 364] getstatic g.char
+[ 365] if_icmpne 13
+[ 366] aload_0
+[ 367] pop
+[ 368] getstatic g.byte
+[ 369] iconst_1
+[ 370] iadd
+[ 371] putstatic g.byte
+[ 372] aload_0
+[ 373] pop
+[ 374] getstatic g.byte
+[ 375] iconst_3
+[ 376] if_icmple 877
+[ 377] aload_0
+[ 378] pop
+[ 379] getstatic g.char
+[ 380] ifne 12
+[ 381] aload_0
+[ 382] pop
+[ 383] iconst_1
+[ 384] putstatic g.byte
+[ 385] goto 860
+[ 386] aload_0
+[ 387] pop
+[ 388] iconst_0
+[ 389] putstatic g.byte
+[ 390] goto 851
+[ 391] iload_1
+[ 392] bipush -6
+[ 393] if_icmpne 845
+[ 394] iconst_2
+[ 395] putstatic h.for
+[ 396] goto 838
+[ 397] iload_1
+[ 398] bipush 53
+[ 399] if_icmpeq 11
+[ 400] iload_1
+[ 401] aload_0
+[ 402] getfield h.v
+[ 403] if_icmpne 92
+[ 404] aload_0
+[ 405] pop
+[ 406] getstatic g.goto
+[ 407] ifne 16
+[ 408] bipush 101
+[ 409] putstatic h.for
+[ 410] aload_0
+[ 411] iconst_1
+[ 412] putfield h.i
+[ 413] goto 803
+[ 414] aload_0
+[ 415] pop
+[ 416] getstatic g.goto
+[ 417] ifeq 795
+[ 418] aload_0
+[ 419] getfield h.else
+[ 420] getfield g.a
+[ 421] ifle 41
+[ 422] getstatic h.null
+[ 423] aload_0
+[ 424] getfield h.else
+[ 425] getfield g.new
+[ 426] invokevirtual j.if
+[ 427] ifeq 13
+[ 428] aload_0
+[ 429] getfield h.y
+[ 430] invokevirtual KickBoxing.do
+[ 431] goto 759
+[ 432] aload_0
+[ 433] iconst_1
+[ 434] putfield h.k
+[ 435] iconst_2
+[ 436] putstatic h.for
+[ 437] goto 747
+[ 438] aload_0
+[ 439] iconst_1
+[ 440] putfield h.k
+[ 441] iconst_2
+[ 442] putstatic h.for
+[ 443] goto 735
+[ 444] iload_1
+[ 445] bipush 49
+[ 446] if_icmpne 69
+[ 447] aload_0
+[ 448] pop
+[ 449] getstatic g.goto
+[ 450] ifne 721
+[ 451] aload_0
+[ 452] getfield h.else
+[ 453] getfield g.b
+[ 454] getfield b.long
+[ 455] ifne 708
+[ 456] aload_0
+[ 457] getfield h.else
+[ 458] getfield g.b
+[ 459] iconst_1
+[ 460] putfield b.long
+[ 461] aload_0
+[ 462] getfield h.else
+[ 463] getfield g.b
+[ 464] aload_0
+[ 465] getfield h.else
+[ 466] getfield g.b
+[ 467] getfield b.e
+[ 468] putfield b.void
+[ 469] aload_0
+[ 470] getfield h.else
+[ 471] getfield g.b
+[ 472] iconst_3
+[ 473] putfield b.char
+[ 474] goto 663
+[ 475] iload_1
+[ 476] bipush 51
+[ 477] if_icmpne 69
+[ 478] aload_0
+[ 479] pop
+[ 480] getstatic g.goto
+[ 481] ifne 649
+[ 482] aload_0
+[ 483] getfield h.else
+[ 484] getfield g.b
+[ 485] getfield b.long
+[ 486] ifne 636
+[ 487] aload_0
+[ 488] getfield h.else
+[ 489] getfield g.b
+[ 490] iconst_1
+[ 491] putfield b.long
+[ 492] aload_0
+[ 493] getfield h.else
+[ 494] getfield g.b
+[ 495] aload_0
+[ 496] getfield h.else
+[ 497] getfield g.b
+[ 498] getfield b.e
+[ 499] putfield b.void
+[ 500] aload_0
+[ 501] getfield h.else
+[ 502] getfield g.b
+[ 503] iconst_4
+[ 504] putfield b.char
+[ 505] goto 591
+[ 506] iload_1
+[ 507] aload_0
+[ 508] getfield h.do
+[ 509] if_icmpeq 583
+[ 510] iload_1
+[ 511] bipush 50
+[ 512] if_icmpne 6
+[ 513] goto 574
+[ 514] iload_1
+[ 515] aload_0
+[ 516] getfield h.case
+[ 517] if_icmpeq 566
+[ 518] iload_1
+[ 519] bipush -2
+[ 520] if_icmpne 6
+[ 521] goto 557
+[ 522] iload_1
+[ 523] bipush -3
+[ 524] if_icmpeq 9
+[ 525] iload_1
+[ 526] bipush 52
+[ 527] if_icmpne 32
+[ 528] aload_0
+[ 529] pop
+[ 530] getstatic g.goto
+[ 531] ifne 537
+[ 532] aload_0
+[ 533] getfield h.else
+[ 534] getfield g.b
+[ 535] iconst_1
+[ 536] putfield b.long
+[ 537] aload_0
+[ 538] getfield h.else
+[ 539] invokevirtual g.for
+[ 540] goto 516
+[ 541] iload_1
+[ 542] bipush -4
+[ 543] if_icmpeq 9
+[ 544] iload_1
+[ 545] bipush 54
+[ 546] if_icmpne 504
+[ 547] aload_0
+[ 548] pop
+[ 549] getstatic g.goto
+[ 550] ifne 496
+[ 551] aload_0
+[ 552] getfield h.else
+[ 553] getfield g.b
+[ 554] iconst_1
+[ 555] putfield b.long
+[ 556] aload_0
+[ 557] getfield h.else
+[ 558] invokevirtual g.try
+[ 559] goto 475
+[ 560] iload_1
+[ 561] bipush 53
+[ 562] if_icmpeq 11
+[ 563] iload_1
+[ 564] aload_0
+[ 565] getfield h.v
+[ 566] if_icmpne 461
+[ 567] aload_0
+[ 568] iconst_1
+[ 569] putfield h.k
+[ 570] iconst_2
+[ 571] putstatic h.for
+[ 572] getstatic h.a
+[ 573] ifnull 446
+[ 574] aconst_null
+[ 575] putstatic h.a
+[ 576] goto 439
+[ 577] iload_1
+[ 578] aload_0
+[ 579] getfield h.do
+[ 580] if_icmpne 33
+[ 581] aload_0
+[ 582] getfield h.k
+[ 583] iconst_1
+[ 584] if_icmpgt 12
+[ 585] aload_0
+[ 586] bipush 7
+[ 587] putfield h.k
+[ 588] goto 414
+[ 589] aload_0
+[ 590] dup
+[ 591] getfield h.k
+[ 592] iconst_1
+[ 593] isub
+[ 594] putfield h.k
+[ 595] goto 401
+[ 596] iload_1
+[ 597] aload_0
+[ 598] getfield h.case
+[ 599] if_icmpne 33
+[ 600] aload_0
+[ 601] getfield h.k
+[ 602] bipush 7
+[ 603] if_icmplt 11
+[ 604] aload_0
+[ 605] iconst_1
+[ 606] putfield h.k
+[ 607] goto 376
+[ 608] aload_0
+[ 609] dup
+[ 610] getfield h.k
+[ 611] iconst_1
+[ 612] iadd
+[ 613] putfield h.k
+[ 614] goto 363
+[ 615] iload_1
+[ 616] bipush 53
+[ 617] if_icmpeq 11
+[ 618] iload_1
+[ 619] aload_0
+[ 620] getfield h.v
+[ 621] if_icmpne 349
+[ 622] aload_0
+[ 623] getfield h.k
+[ 624] tableswitch 113
+[ 625] iconst_3
+[ 626] putstatic h.for
+[ 627] goto 65
+[ 628] aload_0
+[ 629] iconst_0
+[ 630] putfield h.j
+[ 631] bipush 21
+[ 632] putstatic h.for
+[ 633] goto 52
+[ 634] bipush 31
+[ 635] putstatic h.for
+[ 636] goto 44
+[ 637] bipush 33
+[ 638] putstatic h.for
+[ 639] goto 36
+[ 640] aload_0
+[ 641] iconst_1
+[ 642] putfield h.q
+[ 643] bipush 55
+[ 644] putstatic h.for
+[ 645] goto 23
+[ 646] aload_0
+[ 647] iconst_0
+[ 648] putfield h.B
+[ 649] bipush 61
+[ 650] putstatic h.for
+[ 651] goto 10
+[ 652] aload_0
+[ 653] getfield h.y
+[ 654] invokevirtual KickBoxing.a
+[ 655] goto 229
+[ 656] iload_1
+[ 657] bipush 53
+[ 658] if_icmpeq 11
+[ 659] iload_1
+[ 660] aload_0
+[ 661] getfield h.v
+[ 662] if_icmpne 142
+[ 663] aload_0
+[ 664] getfield h.k
+[ 665] tableswitch 132
+[ 666] aload_0
+[ 667] iconst_1
+[ 668] putfield h.e
+[ 669] iconst_0
+[ 670] putstatic h.for
+[ 671] goto 77
+[ 672] iconst_3
+[ 673] putstatic h.for
+[ 674] aload_0
+[ 675] iconst_0
+[ 676] putfield h.i
+[ 677] goto 65
+[ 678] aload_0
+[ 679] iconst_0
+[ 680] putfield h.j
+[ 681] bipush 21
+[ 682] putstatic h.for
+[ 683] goto 52
+[ 684] bipush 31
+[ 685] putstatic h.for
+[ 686] goto 44
+[ 687] bipush 33
+[ 688] putstatic h.for
+[ 689] goto 36
+[ 690] aload_0
+[ 691] iconst_1
+[ 692] putfield h.q
+[ 693] bipush 55
+[ 694] putstatic h.for
+[ 695] goto 23
+[ 696] aload_0
+[ 697] iconst_0
+[ 698] putfield h.B
+[ 699] bipush 61
+[ 700] putstatic h.for
+[ 701] goto 10
+[ 702] aload_0
+[ 703] getfield h.y
+[ 704] invokevirtual KickBoxing.a
+[ 705] goto 76
+[ 706] iload_1
+[ 707] aload_0
+[ 708] getfield h.do
+[ 709] if_icmpne 33
+[ 710] aload_0
+[ 711] getfield h.k
+[ 712] iconst_1
+[ 713] if_icmpgt 12
+[ 714] aload_0
+[ 715] bipush 8
+[ 716] putfield h.k
+[ 717] goto 51
+[ 718] aload_0
+[ 719] dup
+[ 720] getfield h.k
+[ 721] iconst_1
+[ 722] isub
+[ 723] putfield h.k
+[ 724] goto 38
+[ 725] iload_1
+[ 726] aload_0
+[ 727] getfield h.case
+[ 728] if_icmpne 30
+[ 729] aload_0
+[ 730] getfield h.k
+[ 731] bipush 8
+[ 732] if_icmplt 11
+[ 733] aload_0
+[ 734] iconst_1
+[ 735] putfield h.k
+[ 736] goto 13
+[ 737] aload_0
+[ 738] dup
+[ 739] getfield h.k
+[ 740] iconst_1
+[ 741] iadd
+[ 742] putfield h.k
+[ 743] return

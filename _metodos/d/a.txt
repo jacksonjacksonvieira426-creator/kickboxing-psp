@@ -1,0 +1,20 @@
+// Classe: d
+// Metodo: a
+// Descritor: (II)I
+// Instrucoes: 15
+
+[   0] iload_1
+[   1] aload_0
+[   2] getfield d.a
+[   3] invokevirtual java/util/Random.nextInt
+[   4] iconst_1
+[   5] iushr
+[   6] invokestatic java/lang/Math.abs
+[   7] iload_2
+[   8] iload_1
+[   9] isub
+[  10] iconst_1
+[  11] iadd
+[  12] irem
+[  13] iadd
+[  14] ireturn

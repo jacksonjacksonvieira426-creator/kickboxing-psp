@@ -1,0 +1,11 @@
+// Classe: KickBoxing
+// Metodo: destroyApp
+// Descritor: (Z)V
+// Instrucoes: 6
+
+[   0] invokestatic java/lang/System.gc
+[   1] aload_0
+[   2] getfield KickBoxing.int
+[   3] aconst_null
+[   4] invokevirtual javax/microedition/lcdui/Display.setCurrent
+[   5] return

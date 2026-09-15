@@ -1,0 +1,8 @@
+// Classe: h
+// Metodo: access$000
+// Descritor: (Lh;)V
+// Instrucoes: 3
+
+[   0] aload_0
+[   1] invokespecial h.do
+[   2] return

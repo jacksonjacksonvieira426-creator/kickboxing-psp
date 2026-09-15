@@ -1,0 +1,19 @@
+// Classe: g
+// Metodo: if
+// Descritor: (Ljavax/microedition/lcdui/Graphics;)V
+// Instrucoes: 14
+
+[   0] aload_1
+[   1] sipush 255
+[   2] sipush 255
+[   3] sipush 255
+[   4] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[   5] aload_1
+[   6] iconst_0
+[   7] iconst_0
+[   8] aload_0
+[   9] getfield g.e
+[  10] aload_0
+[  11] getfield g.try
+[  12] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  13] return

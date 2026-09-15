@@ -1,0 +1,70 @@
+// Classe: j
+// Metodo: do
+// Descritor: ()V
+// Instrucoes: 65
+
+[   0] getstatic j.byte
+[   1] iconst_1
+[   2] invokestatic javax/microedition/rms/RecordStore.openRecordStore
+[   3] putstatic j.int
+[   4] getstatic j.int
+[   5] invokevirtual javax/microedition/rms/RecordStore.getNumRecords
+[   6] istore_1
+[   7] iload_1
+[   8] ifle 64
+[   9] getstatic j.int
+[  10] getstatic j.try
+[  11] invokevirtual javax/microedition/rms/RecordStore.getRecord
+[  12] putstatic j.char
+[  13] new 27
+[  14] dup
+[  15] new 28
+[  16] dup
+[  17] getstatic j.char
+[  18] invokespecial java/io/ByteArrayInputStream.<init>
+[  19] invokespecial java/io/DataInputStream.<init>
+[  20] astore_2
+[  21] aload_2
+[  22] invokevirtual java/io/DataInputStream.readBoolean
+[  23] istore_3
+[  24] aload_2
+[  25] invokevirtual java/io/DataInputStream.readInt
+[  26] istore 4
+[  27] iload 4
+[  28] iconst_1
+[  29] if_icmpne 10
+[  30] iconst_1
+[  31] putstatic h.h
+[  32] goto 14
+[  33] iconst_0
+[  34] putstatic h.h
+[  35] goto 7
+[  36] iconst_1
+[  37] putstatic h.h
+[  38] getstatic j.int
+[  39] invokevirtual javax/microedition/rms/RecordStore.closeRecordStore
+[  40] goto 29
+[  41] astore_1
+[  42] getstatic System.out
+[  43] new 58
+[  44] dup
+[  45] invokespecial java/lang/StringBuffer.<init>
+[  46] ldc 60
+[  47] invokevirtual java/lang/StringBuffer.append
+[  48] aload_1
+[  49] invokevirtual java/lang/StringBuffer.append
+[  50] invokevirtual java/lang/StringBuffer.toString
+[  51] invokevirtual java/io/PrintStream.println
+[  52] goto 29
+[  53] astore_1
+[  54] getstatic System.out
+[  55] new 58
+[  56] dup
+[  57] invokespecial java/lang/StringBuffer.<init>
+[  58] ldc 64
+[  59] invokevirtual java/lang/StringBuffer.append
+[  60] aload_1
+[  61] invokevirtual java/lang/StringBuffer.append
+[  62] invokevirtual java/lang/StringBuffer.toString
+[  63] invokevirtual java/io/PrintStream.println
+[  64] return

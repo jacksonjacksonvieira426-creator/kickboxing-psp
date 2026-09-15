@@ -1,0 +1,11 @@
+// Classe: k
+// Metodo: do
+// Descritor: ()V
+// Instrucoes: 6
+
+[   0] aload_0
+[   1] invokevirtual k.a
+[   2] aload_0
+[   3] getstatic k.a
+[   4] invokevirtual k.a
+[   5] return

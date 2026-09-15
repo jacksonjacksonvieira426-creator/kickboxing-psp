@@ -1,0 +1,80 @@
+// Classe: b
+// Metodo: new
+// Descritor: (Ljavax/microedition/lcdui/Graphics;Lcom/nokia/mid/ui/DirectGraphics;)V
+// Instrucoes: 75
+
+[   0] aload_0
+[   1] iconst_0
+[   2] iconst_2
+[   3] iconst_1
+[   4] invokevirtual b.a
+[   5] aload_0
+[   6] getfield b.else
+[   7] iflt 26
+[   8] aload_0
+[   9] getfield b.else
+[  10] iconst_1
+[  11] if_icmpgt 18
+[  12] aload_0
+[  13] iconst_0
+[  14] iconst_0
+[  15] iconst_0
+[  16] invokevirtual b.a
+[  17] aload_0
+[  18] iconst_2
+[  19] putfield b.byte
+[  20] goto 80
+[  21] aload_0
+[  22] getfield b.else
+[  23] iconst_2
+[  24] if_icmplt 39
+[  25] aload_0
+[  26] getfield b.else
+[  27] iconst_3
+[  28] if_icmpgt 31
+[  29] aload_0
+[  30] iconst_0
+[  31] iconst_0
+[  32] iconst_0
+[  33] invokevirtual b.a
+[  34] aload_0
+[  35] getfield b.else
+[  36] iconst_2
+[  37] if_icmpne 8
+[  38] aload_0
+[  39] iconst_1
+[  40] putfield b.new
+[  41] aload_0
+[  42] iconst_3
+[  43] putfield b.byte
+[  44] goto 36
+[  45] aload_0
+[  46] getfield b.else
+[  47] iconst_3
+[  48] if_icmple 28
+[  49] aload_0
+[  50] iconst_0
+[  51] putfield b.else
+[  52] aload_0
+[  53] iconst_0
+[  54] iconst_0
+[  55] iconst_0
+[  56] invokevirtual b.a
+[  57] aload_0
+[  58] aload_0
+[  59] getfield b.void
+[  60] putfield b.e
+[  61] aload_0
+[  62] iconst_0
+[  63] putfield b.char
+[  64] aload_0
+[  65] aload_1
+[  66] aload_2
+[  67] invokevirtual b.for
+[  68] aload_0
+[  69] dup
+[  70] getfield b.else
+[  71] iconst_1
+[  72] iadd
+[  73] putfield b.else
+[  74] return

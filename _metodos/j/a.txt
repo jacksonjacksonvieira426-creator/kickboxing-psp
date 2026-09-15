@@ -1,0 +1,31 @@
+// Classe: j
+// Metodo: a
+// Descritor: (I)V
+// Instrucoes: 26
+
+[   0] getstatic j.goto
+[   1] iconst_1
+[   2] isub
+[   3] istore_2
+[   4] goto 30
+[   5] getstatic h.s
+[   6] iload_2
+[   7] getstatic h.s
+[   8] iload_2
+[   9] iconst_1
+[  10] isub
+[  11] iaload
+[  12] iastore
+[  13] getstatic h.u
+[  14] iload_2
+[  15] getstatic h.u
+[  16] iload_2
+[  17] iconst_1
+[  18] isub
+[  19] aaload
+[  20] aastore
+[  21] iinc 2
+[  22] iload_2
+[  23] iload_1
+[  24] if_icmpgt -29
+[  25] return

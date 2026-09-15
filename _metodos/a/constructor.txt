@@ -1,0 +1,23 @@
+// Classe: a
+// Metodo: <init>
+// Descritor: (IIII)V
+// Instrucoes: 18
+
+[   0] aload_0
+[   1] invokespecial java/lang/Object.<init>
+[   2] aload_0
+[   3] iload_1
+[   4] putfield a.a
+[   5] aload_0
+[   6] iload_2
+[   7] putfield a.int
+[   8] aload_0
+[   9] iload_3
+[  10] putfield a.for
+[  11] aload_0
+[  12] iload 4
+[  13] putfield a.do
+[  14] aload_0
+[  15] aload_0
+[  16] putfield a.if
+[  17] return

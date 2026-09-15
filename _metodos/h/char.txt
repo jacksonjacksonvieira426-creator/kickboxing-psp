@@ -1,0 +1,171 @@
+// Classe: h
+// Metodo: char
+// Descritor: (Ljavax/microedition/lcdui/Graphics;)V
+// Instrucoes: 166
+
+[   0] iconst_0
+[   1] istore_2
+[   2] iconst_0
+[   3] istore_3
+[   4] iconst_0
+[   5] istore 4
+[   6] aload_1
+[   7] sipush 204
+[   8] sipush 204
+[   9] sipush 204
+[  10] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  11] aload_1
+[  12] iconst_0
+[  13] iconst_0
+[  14] aload_0
+[  15] getfield h.new
+[  16] aload_0
+[  17] getfield h.m
+[  18] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  19] aload_1
+[  20] bipush 113
+[  21] bipush 114
+[  22] bipush 114
+[  23] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  24] aload_1
+[  25] bipush 9
+[  26] bipush 8
+[  27] bipush 110
+[  28] bipush 108
+[  29] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  30] aload_1
+[  31] iconst_0
+[  32] iconst_0
+[  33] iconst_0
+[  34] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  35] aload_1
+[  36] bipush 9
+[  37] bipush 8
+[  38] bipush 110
+[  39] bipush 108
+[  40] invokevirtual javax/microedition/lcdui/Graphics.drawRect
+[  41] aload_1
+[  42] sipush 204
+[  43] sipush 204
+[  44] sipush 204
+[  45] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  46] aload_1
+[  47] iconst_0
+[  48] iconst_1
+[  49] bipush 8
+[  50] invokestatic javax/microedition/lcdui/Font.getFont
+[  51] invokevirtual javax/microedition/lcdui/Graphics.setFont
+[  52] aload_1
+[  53] ldc 96
+[  54] aload_0
+[  55] getfield h.new
+[  56] iconst_2
+[  57] idiv
+[  58] bipush 13
+[  59] bipush 16
+[  60] iconst_1
+[  61] ior
+[  62] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  63] bipush 27
+[  64] istore_2
+[  65] bipush 13
+[  66] istore_3
+[  67] bipush 10
+[  68] istore 4
+[  69] aload_1
+[  70] ldc 91
+[  71] aload_0
+[  72] getfield h.new
+[  73] iconst_2
+[  74] idiv
+[  75] iload_2
+[  76] bipush 16
+[  77] iconst_1
+[  78] ior
+[  79] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  80] aload_1
+[  81] iconst_0
+[  82] iconst_0
+[  83] bipush 8
+[  84] invokestatic javax/microedition/lcdui/Font.getFont
+[  85] invokevirtual javax/microedition/lcdui/Graphics.setFont
+[  86] iconst_0
+[  87] istore 5
+[  88] goto 118
+[  89] iload_2
+[  90] iload_3
+[  91] iadd
+[  92] istore_2
+[  93] iload 5
+[  94] getstatic j.case
+[  95] if_icmpne 13
+[  96] aload_1
+[  97] iconst_0
+[  98] iconst_0
+[  99] iconst_0
+[ 100] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 101] goto 16
+[ 102] aload_1
+[ 103] sipush 204
+[ 104] sipush 204
+[ 105] sipush 204
+[ 106] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 107] aload_1
+[ 108] new 48
+[ 109] dup
+[ 110] invokespecial java/lang/StringBuffer.<init>
+[ 111] ldc 58
+[ 112] invokevirtual java/lang/StringBuffer.append
+[ 113] getstatic h.u
+[ 114] iload 5
+[ 115] aaload
+[ 116] invokevirtual java/lang/StringBuffer.append
+[ 117] invokevirtual java/lang/StringBuffer.toString
+[ 118] iload 4
+[ 119] bipush 12
+[ 120] iadd
+[ 121] iload_2
+[ 122] bipush 16
+[ 123] iconst_4
+[ 124] ior
+[ 125] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 126] aload_1
+[ 127] new 48
+[ 128] dup
+[ 129] invokespecial java/lang/StringBuffer.<init>
+[ 130] ldc 58
+[ 131] invokevirtual java/lang/StringBuffer.append
+[ 132] getstatic h.s
+[ 133] iload 5
+[ 134] iaload
+[ 135] invokevirtual java/lang/StringBuffer.append
+[ 136] invokevirtual java/lang/StringBuffer.toString
+[ 137] iload 4
+[ 138] bipush 95
+[ 139] iadd
+[ 140] iload_2
+[ 141] bipush 16
+[ 142] bipush 8
+[ 143] ior
+[ 144] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 145] iinc 5
+[ 146] iload 5
+[ 147] iconst_5
+[ 148] if_icmplt -118
+[ 149] aload_1
+[ 150] bipush 113
+[ 151] bipush 114
+[ 152] bipush 114
+[ 153] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 154] aload_1
+[ 155] ldc 95
+[ 156] aload_0
+[ 157] getfield h.new
+[ 158] iconst_2
+[ 159] idiv
+[ 160] bipush 119
+[ 161] bipush 16
+[ 162] iconst_1
+[ 163] ior
+[ 164] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 165] return

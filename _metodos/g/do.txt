@@ -1,0 +1,37 @@
+// Classe: g
+// Metodo: do
+// Descritor: (Ljavax/microedition/lcdui/Graphics;)V
+// Instrucoes: 32
+
+[   0] aload_1
+[   1] iconst_0
+[   2] iconst_0
+[   3] iconst_0
+[   4] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[   5] aload_1
+[   6] iconst_0
+[   7] iconst_1
+[   8] bipush 8
+[   9] invokestatic javax/microedition/lcdui/Font.getFont
+[  10] invokevirtual javax/microedition/lcdui/Graphics.setFont
+[  11] aload_1
+[  12] new 31
+[  13] dup
+[  14] invokespecial java/lang/StringBuffer.<init>
+[  15] ldc 50
+[  16] invokevirtual java/lang/StringBuffer.append
+[  17] getstatic g.long
+[  18] iconst_1
+[  19] iadd
+[  20] invokevirtual java/lang/StringBuffer.append
+[  21] invokevirtual java/lang/StringBuffer.toString
+[  22] aload_0
+[  23] getfield g.e
+[  24] iconst_2
+[  25] idiv
+[  26] bipush 50
+[  27] bipush 16
+[  28] iconst_1
+[  29] ior
+[  30] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  31] return

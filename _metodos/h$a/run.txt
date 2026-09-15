@@ -1,0 +1,56 @@
+// Classe: h$a
+// Metodo: run
+// Descritor: ()V
+// Instrucoes: 51
+
+[   0] aload_0
+[   1] getfield h$a.this$0
+[   2] invokevirtual h.a
+[   3] aload_0
+[   4] getfield h$a.this$0
+[   5] invokestatic h.access$000
+[   6] aload_0
+[   7] getfield h$a.this$0
+[   8] new 10
+[   9] dup
+[  10] aload_0
+[  11] getfield h$a.this$0
+[  12] getfield h.y
+[  13] invokespecial k.<init>
+[  14] putfield h.long
+[  15] new 14
+[  16] dup
+[  17] aload_0
+[  18] getfield h$a.a
+[  19] invokespecial j.<init>
+[  20] putstatic h.null
+[  21] getstatic h.null
+[  22] invokevirtual j.for
+[  23] getstatic h.null
+[  24] invokevirtual j.do
+[  25] aload_0
+[  26] getfield h$a.this$0
+[  27] iconst_1
+[  28] putfield h.e
+[  29] aload_0
+[  30] getfield h$a.this$0
+[  31] new 20
+[  32] dup
+[  33] aload_0
+[  34] getfield h$a.a
+[  35] invokespecial g.<init>
+[  36] putfield h.else
+[  37] aload_0
+[  38] getfield h$a.this$0
+[  39] new 4
+[  40] dup
+[  41] aload_0
+[  42] getfield h$a.a
+[  43] invokespecial java/lang/Thread.<init>
+[  44] invokestatic h.access$102
+[  45] pop
+[  46] aload_0
+[  47] getfield h$a.this$0
+[  48] invokestatic h.access$100
+[  49] invokevirtual java/lang/Thread.start
+[  50] return

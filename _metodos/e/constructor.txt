@@ -1,0 +1,11 @@
+// Classe: e
+// Metodo: <init>
+// Descritor: (Lg;)V
+// Instrucoes: 6
+
+[   0] aload_0
+[   1] invokespecial java/lang/Object.<init>
+[   2] aload_0
+[   3] aload_1
+[   4] putfield e.a
+[   5] return

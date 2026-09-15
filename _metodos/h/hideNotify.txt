@@ -1,0 +1,26 @@
+// Classe: h
+// Metodo: hideNotify
+// Descritor: ()V
+// Instrucoes: 21
+
+[   0] getstatic h.for
+[   1] ifne 16
+[   2] bipush 101
+[   3] putstatic h.for
+[   4] aload_0
+[   5] iconst_1
+[   6] putfield h.i
+[   7] goto 22
+[   8] aload_0
+[   9] getfield h.i
+[  10] ifeq 11
+[  11] bipush 101
+[  12] putstatic h.for
+[  13] goto 7
+[  14] iconst_2
+[  15] putstatic h.for
+[  16] aload_0
+[  17] invokevirtual javax/microedition/lcdui/Canvas.repaint
+[  18] aload_0
+[  19] invokevirtual javax/microedition/lcdui/Canvas.serviceRepaints
+[  20] return

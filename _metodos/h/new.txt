@@ -1,0 +1,194 @@
+// Classe: h
+// Metodo: new
+// Descritor: (Ljavax/microedition/lcdui/Graphics;)V
+// Instrucoes: 189
+
+[   0] iconst_0
+[   1] istore_2
+[   2] iconst_0
+[   3] istore_3
+[   4] iconst_0
+[   5] istore 4
+[   6] aload_1
+[   7] sipush 204
+[   8] sipush 204
+[   9] sipush 204
+[  10] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  11] aload_1
+[  12] iconst_0
+[  13] iconst_0
+[  14] aload_0
+[  15] getfield h.new
+[  16] aload_0
+[  17] getfield h.m
+[  18] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  19] aload_1
+[  20] bipush 113
+[  21] bipush 114
+[  22] bipush 114
+[  23] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  24] aload_1
+[  25] bipush 9
+[  26] bipush 8
+[  27] bipush 110
+[  28] bipush 108
+[  29] invokevirtual javax/microedition/lcdui/Graphics.fillRect
+[  30] aload_1
+[  31] iconst_0
+[  32] iconst_0
+[  33] iconst_0
+[  34] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  35] aload_1
+[  36] bipush 9
+[  37] bipush 8
+[  38] bipush 110
+[  39] bipush 108
+[  40] invokevirtual javax/microedition/lcdui/Graphics.drawRect
+[  41] aload_1
+[  42] sipush 204
+[  43] sipush 204
+[  44] sipush 204
+[  45] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[  46] aload_1
+[  47] iconst_0
+[  48] iconst_1
+[  49] bipush 8
+[  50] invokestatic javax/microedition/lcdui/Font.getFont
+[  51] invokevirtual javax/microedition/lcdui/Graphics.setFont
+[  52] aload_1
+[  53] ldc 100
+[  54] aload_0
+[  55] getfield h.new
+[  56] iconst_2
+[  57] idiv
+[  58] bipush 13
+[  59] bipush 16
+[  60] iconst_1
+[  61] ior
+[  62] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[  63] aload_1
+[  64] iconst_0
+[  65] iconst_0
+[  66] bipush 8
+[  67] invokestatic javax/microedition/lcdui/Font.getFont
+[  68] invokevirtual javax/microedition/lcdui/Graphics.setFont
+[  69] bipush 27
+[  70] istore_2
+[  71] bipush 13
+[  72] istore_3
+[  73] bipush 11
+[  74] istore 4
+[  75] aload_0
+[  76] getfield h.B
+[  77] ifne 119
+[  78] iconst_0
+[  79] istore 5
+[  80] goto 59
+[  81] aload_0
+[  82] getfield h.d
+[  83] iload 5
+[  84] aaload
+[  85] ifnonnull 6
+[  86] goto 53
+[  87] aload_1
+[  88] new 48
+[  89] dup
+[  90] invokespecial java/lang/StringBuffer.<init>
+[  91] ldc 58
+[  92] invokevirtual java/lang/StringBuffer.append
+[  93] aload_0
+[  94] getfield h.d
+[  95] iload 5
+[  96] aaload
+[  97] invokevirtual java/lang/StringBuffer.append
+[  98] invokevirtual java/lang/StringBuffer.toString
+[  99] iload 4
+[ 100] iload_2
+[ 101] bipush 16
+[ 102] iconst_4
+[ 103] ior
+[ 104] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 105] iload_2
+[ 106] iload_3
+[ 107] iadd
+[ 108] istore_2
+[ 109] iinc 5
+[ 110] iload 5
+[ 111] bipush 8
+[ 112] if_icmplt -60
+[ 113] aload_1
+[ 114] bipush 113
+[ 115] bipush 114
+[ 116] bipush 114
+[ 117] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 118] aload_1
+[ 119] ldc 101
+[ 120] aload_0
+[ 121] getfield h.new
+[ 122] bipush 9
+[ 123] isub
+[ 124] bipush 118
+[ 125] bipush 16
+[ 126] bipush 8
+[ 127] ior
+[ 128] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 129] aload_1
+[ 130] ldc 102
+[ 131] bipush 9
+[ 132] bipush 118
+[ 133] bipush 16
+[ 134] iconst_4
+[ 135] ior
+[ 136] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 137] goto 100
+[ 138] bipush 8
+[ 139] istore 5
+[ 140] goto 59
+[ 141] aload_0
+[ 142] getfield h.d
+[ 143] iload 5
+[ 144] aaload
+[ 145] ifnonnull 6
+[ 146] goto 56
+[ 147] aload_1
+[ 148] new 48
+[ 149] dup
+[ 150] invokespecial java/lang/StringBuffer.<init>
+[ 151] ldc 58
+[ 152] invokevirtual java/lang/StringBuffer.append
+[ 153] aload_0
+[ 154] getfield h.d
+[ 155] iload 5
+[ 156] aaload
+[ 157] invokevirtual java/lang/StringBuffer.append
+[ 158] invokevirtual java/lang/StringBuffer.toString
+[ 159] iload 4
+[ 160] iload_2
+[ 161] bipush 16
+[ 162] iconst_4
+[ 163] ior
+[ 164] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 165] iload_2
+[ 166] iload_3
+[ 167] iadd
+[ 168] istore_2
+[ 169] iinc 5
+[ 170] iload 5
+[ 171] aload_0
+[ 172] getfield h.d
+[ 173] arraylength
+[ 174] if_icmplt -63
+[ 175] aload_1
+[ 176] bipush 113
+[ 177] bipush 114
+[ 178] bipush 114
+[ 179] invokevirtual javax/microedition/lcdui/Graphics.setColor
+[ 180] aload_1
+[ 181] ldc 101
+[ 182] bipush 9
+[ 183] bipush 118
+[ 184] bipush 16
+[ 185] iconst_4
+[ 186] ior
+[ 187] invokevirtual javax/microedition/lcdui/Graphics.drawString
+[ 188] return

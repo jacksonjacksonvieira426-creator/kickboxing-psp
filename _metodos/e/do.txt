@@ -1,0 +1,75 @@
+// Classe: e
+// Metodo: do
+// Descritor: ()V
+// Instrucoes: 70
+
+[   0] aload_0
+[   1] getfield e.a
+[   2] getfield g.b
+[   3] bipush 8
+[   4] putfield b.char
+[   5] aload_0
+[   6] getfield e.a
+[   7] getfield g.b
+[   8] aload_0
+[   9] getfield e.a
+[  10] getfield g.b
+[  11] getfield f.l
+[  12] aload_0
+[  13] getfield e.a
+[  14] getfield g.c
+[  15] aload_0
+[  16] pop
+[  17] getstatic g.char
+[  18] iaload
+[  19] isub
+[  20] putfield f.l
+[  21] aload_0
+[  22] getfield e.a
+[  23] aload_0
+[  24] getfield e.a
+[  25] getfield g.new
+[  26] iconst_1
+[  27] isub
+[  28] putfield g.new
+[  29] aload_0
+[  30] getfield e.a
+[  31] getfield g.b
+[  32] getfield b.e
+[  33] aload_0
+[  34] getfield e.a
+[  35] getfield g.do
+[  36] getfield b.e
+[  37] if_icmpge 16
+[  38] aload_0
+[  39] getfield e.a
+[  40] getfield g.b
+[  41] invokevirtual f.do
+[  42] goto 13
+[  43] aload_0
+[  44] getfield e.a
+[  45] getfield g.b
+[  46] invokevirtual f.for
+[  47] aload_0
+[  48] getfield e.a
+[  49] pop
+[  50] getstatic h.h
+[  51] ifeq 45
+[  52] aload_0
+[  53] getfield e.a
+[  54] getfield g.for
+[  55] getfield h.long
+[  56] invokevirtual k.int
+[  57] goto 29
+[  58] astore_1
+[  59] getstatic System.out
+[  60] new 23
+[  61] dup
+[  62] invokespecial java/lang/StringBuffer.<init>
+[  63] ldc 25
+[  64] invokevirtual java/lang/StringBuffer.append
+[  65] aload_1
+[  66] invokevirtual java/lang/StringBuffer.append
+[  67] invokevirtual java/lang/StringBuffer.toString
+[  68] invokevirtual java/io/PrintStream.println
+[  69] return

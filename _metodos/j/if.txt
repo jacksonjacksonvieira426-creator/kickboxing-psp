@@ -1,0 +1,120 @@
+// Classe: j
+// Metodo: if
+// Descritor: ()V
+// Instrucoes: 115
+
+[   0] iconst_0
+[   1] istore_0
+[   2] goto 246
+[   3] getstatic j.if
+[   4] iload_0
+[   5] aaload
+[   6] iconst_0
+[   7] invokestatic javax/microedition/rms/RecordStore.openRecordStore
+[   8] putstatic j.int
+[   9] new 44
+[  10] dup
+[  11] invokespecial java/io/ByteArrayOutputStream.<init>
+[  12] astore_1
+[  13] new 46
+[  14] dup
+[  15] aload_1
+[  16] invokespecial java/io/DataOutputStream.<init>
+[  17] astore_2
+[  18] new 44
+[  19] dup
+[  20] invokespecial java/io/ByteArrayOutputStream.<init>
+[  21] astore_3
+[  22] new 46
+[  23] dup
+[  24] aload_3
+[  25] invokespecial java/io/DataOutputStream.<init>
+[  26] astore 4
+[  27] aload_2
+[  28] iconst_1
+[  29] invokevirtual java/io/DataOutputStream.writeBoolean
+[  30] aload_2
+[  31] getstatic h.u
+[  32] iload_0
+[  33] aaload
+[  34] invokevirtual java/io/DataOutputStream.writeUTF
+[  35] aload_1
+[  36] invokevirtual java/io/ByteArrayOutputStream.toByteArray
+[  37] putstatic j.long
+[  38] aload 4
+[  39] iconst_1
+[  40] invokevirtual java/io/DataOutputStream.writeBoolean
+[  41] aload 4
+[  42] getstatic h.s
+[  43] iload_0
+[  44] iaload
+[  45] invokevirtual java/io/DataOutputStream.writeInt
+[  46] aload_3
+[  47] invokevirtual java/io/ByteArrayOutputStream.toByteArray
+[  48] putstatic j.char
+[  49] getstatic j.int
+[  50] invokevirtual javax/microedition/rms/RecordStore.getNumRecords
+[  51] ifne 40
+[  52] getstatic j.int
+[  53] getstatic j.char
+[  54] iconst_0
+[  55] getstatic j.char
+[  56] arraylength
+[  57] invokevirtual javax/microedition/rms/RecordStore.addRecord
+[  58] putstatic j.try
+[  59] getstatic j.int
+[  60] getstatic j.long
+[  61] iconst_0
+[  62] getstatic j.long
+[  63] arraylength
+[  64] invokevirtual javax/microedition/rms/RecordStore.addRecord
+[  65] putstatic j.null
+[  66] goto 63
+[  67] getstatic j.int
+[  68] invokevirtual javax/microedition/rms/RecordStore.closeRecordStore
+[  69] getstatic j.if
+[  70] iload_0
+[  71] aaload
+[  72] invokestatic javax/microedition/rms/RecordStore.deleteRecordStore
+[  73] getstatic j.if
+[  74] iload_0
+[  75] aaload
+[  76] iconst_1
+[  77] invokestatic javax/microedition/rms/RecordStore.openRecordStore
+[  78] putstatic j.int
+[  79] getstatic j.int
+[  80] getstatic j.char
+[  81] iconst_0
+[  82] getstatic j.char
+[  83] arraylength
+[  84] invokevirtual javax/microedition/rms/RecordStore.addRecord
+[  85] putstatic j.try
+[  86] getstatic j.int
+[  87] getstatic j.long
+[  88] iconst_0
+[  89] getstatic j.long
+[  90] arraylength
+[  91] invokevirtual javax/microedition/rms/RecordStore.addRecord
+[  92] putstatic j.null
+[  93] getstatic j.int
+[  94] invokevirtual javax/microedition/rms/RecordStore.closeRecordStore
+[  95] goto 13
+[  96] astore 5
+[  97] getstatic System.out
+[  98] ldc 43
+[  99] invokevirtual java/io/PrintStream.println
+[ 100] goto 12
+[ 101] astore_1
+[ 102] getstatic System.out
+[ 103] ldc 54
+[ 104] invokevirtual java/io/PrintStream.println
+[ 105] goto 12
+[ 106] astore_1
+[ 107] getstatic System.out
+[ 108] ldc 55
+[ 109] invokevirtual java/io/PrintStream.println
+[ 110] iinc 0
+[ 111] iload_0
+[ 112] getstatic j.goto
+[ 113] if_icmplt -247
+[ 114] return

@@ -1,0 +1,102 @@
+// Classe: b
+// Metodo: for
+// Descritor: (Ljavax/microedition/lcdui/Graphics;Lcom/nokia/mid/ui/DirectGraphics;)V
+// Instrucoes: 97
+
+[   0] aload_1
+[   1] aload_0
+[   2] getfield b.e
+[   3] aload_0
+[   4] getfield b.d
+[   5] getstatic h.f
+[   6] aload_0
+[   7] getfield b.null
+[   8] aaload
+[   9] aload_0
+[  10] getfield b.byte
+[  11] aaload
+[  12] getfield a.for
+[  13] getstatic h.f
+[  14] aload_0
+[  15] getfield b.null
+[  16] aaload
+[  17] aload_0
+[  18] getfield b.byte
+[  19] aaload
+[  20] getfield a.do
+[  21] invokevirtual javax/microedition/lcdui/Graphics.setClip
+[  22] aload_0
+[  23] getfield b.h
+[  24] ifne 81
+[  25] aload_2
+[  26] getstatic h.c
+[  27] aload_0
+[  28] getfield b.null
+[  29] aaload
+[  30] aload_0
+[  31] getfield b.e
+[  32] getstatic h.c
+[  33] aload_0
+[  34] getfield b.null
+[  35] aaload
+[  36] invokevirtual javax/microedition/lcdui/Image.getWidth
+[  37] getstatic h.f
+[  38] aload_0
+[  39] getfield b.null
+[  40] aaload
+[  41] aload_0
+[  42] getfield b.byte
+[  43] aaload
+[  44] getfield a.a
+[  45] isub
+[  46] getstatic h.f
+[  47] aload_0
+[  48] getfield b.null
+[  49] aaload
+[  50] aload_0
+[  51] getfield b.byte
+[  52] aaload
+[  53] getfield a.for
+[  54] isub
+[  55] isub
+[  56] aload_0
+[  57] getfield b.d
+[  58] bipush 16
+[  59] iconst_4
+[  60] ior
+[  61] sipush 8192
+[  62] invokeinterface com/nokia/mid/ui/DirectGraphics.drawImage
+[  63] goto 44
+[  64] aload_1
+[  65] getstatic h.c
+[  66] aload_0
+[  67] getfield b.null
+[  68] aaload
+[  69] aload_0
+[  70] getfield b.e
+[  71] getstatic h.f
+[  72] aload_0
+[  73] getfield b.null
+[  74] aaload
+[  75] aload_0
+[  76] getfield b.byte
+[  77] aaload
+[  78] getfield a.a
+[  79] isub
+[  80] aload_0
+[  81] getfield b.d
+[  82] bipush 16
+[  83] iconst_4
+[  84] ior
+[  85] invokevirtual javax/microedition/lcdui/Graphics.drawImage
+[  86] aload_1
+[  87] iconst_0
+[  88] iconst_0
+[  89] aload_0
+[  90] getfield b.f
+[  91] getfield g.e
+[  92] aload_0
+[  93] getfield b.f
+[  94] getfield g.try
+[  95] invokevirtual javax/microedition/lcdui/Graphics.setClip
+[  96] return

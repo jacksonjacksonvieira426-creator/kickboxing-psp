@@ -1,0 +1,369 @@
+{
+  "jogo": "",
+  "classes": {
+    "KickBoxing": [
+      {
+        "nome": "a",
+        "instrucoes": 6
+      },
+      {
+        "nome": "commandAction",
+        "instrucoes": 36
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 13
+      },
+      {
+        "nome": "destroyApp",
+        "instrucoes": 6
+      },
+      {
+        "nome": "do",
+        "instrucoes": 49
+      },
+      {
+        "nome": "if",
+        "instrucoes": 6
+      },
+      {
+        "nome": "pauseApp",
+        "instrucoes": 1
+      },
+      {
+        "nome": "startApp",
+        "instrucoes": 3
+      }
+    ],
+    "a": [
+      {
+        "nome": "a",
+        "instrucoes": 209
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 18
+      }
+    ],
+    "b": [
+      {
+        "nome": "a",
+        "instrucoes": 92
+      },
+      {
+        "nome": "byte",
+        "instrucoes": 66
+      },
+      {
+        "nome": "case",
+        "instrucoes": 49
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 97
+      },
+      {
+        "nome": "do",
+        "instrucoes": 37
+      },
+      {
+        "nome": "for",
+        "instrucoes": 97
+      },
+      {
+        "nome": "if",
+        "instrucoes": 75
+      },
+      {
+        "nome": "int",
+        "instrucoes": 61
+      },
+      {
+        "nome": "new",
+        "instrucoes": 75
+      },
+      {
+        "nome": "try",
+        "instrucoes": 16
+      }
+    ],
+    "c": [
+      {
+        "nome": "a",
+        "instrucoes": 68
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 15
+      },
+      {
+        "nome": "if",
+        "instrucoes": 149
+      }
+    ],
+    "d": [
+      {
+        "nome": "a",
+        "instrucoes": 15
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 8
+      }
+    ],
+    "e": [
+      {
+        "nome": "a",
+        "instrucoes": 50
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 6
+      },
+      {
+        "nome": "do",
+        "instrucoes": 70
+      },
+      {
+        "nome": "if",
+        "instrucoes": 424
+      }
+    ],
+    "f": [
+      {
+        "nome": "constructor",
+        "instrucoes": 12
+      },
+      {
+        "nome": "do",
+        "instrucoes": 41
+      },
+      {
+        "nome": "for",
+        "instrucoes": 71
+      }
+    ],
+    "g": [
+      {
+        "nome": "a",
+        "instrucoes": 127
+      },
+      {
+        "nome": "byte",
+        "instrucoes": 33
+      },
+      {
+        "nome": "case",
+        "instrucoes": 14
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 86
+      },
+      {
+        "nome": "do",
+        "instrucoes": 32
+      },
+      {
+        "nome": "for",
+        "instrucoes": 28
+      },
+      {
+        "nome": "if",
+        "instrucoes": 14
+      },
+      {
+        "nome": "int",
+        "instrucoes": 12
+      },
+      {
+        "nome": "new",
+        "instrucoes": 94
+      },
+      {
+        "nome": "try",
+        "instrucoes": 12
+      }
+    ],
+    "h": [
+      {
+        "nome": "a",
+        "instrucoes": 164
+      },
+      {
+        "nome": "access$000",
+        "instrucoes": 3
+      },
+      {
+        "nome": "access$100",
+        "instrucoes": 3
+      },
+      {
+        "nome": "access$102",
+        "instrucoes": 5
+      },
+      {
+        "nome": "byte",
+        "instrucoes": 395
+      },
+      {
+        "nome": "case",
+        "instrucoes": 46
+      },
+      {
+        "nome": "char",
+        "instrucoes": 166
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 86
+      },
+      {
+        "nome": "do",
+        "instrucoes": 104
+      },
+      {
+        "nome": "else",
+        "instrucoes": 219
+      },
+      {
+        "nome": "for",
+        "instrucoes": 152
+      },
+      {
+        "nome": "goto",
+        "instrucoes": 232
+      },
+      {
+        "nome": "hideNotify",
+        "instrucoes": 21
+      },
+      {
+        "nome": "if",
+        "instrucoes": 219
+      },
+      {
+        "nome": "int",
+        "instrucoes": 196
+      },
+      {
+        "nome": "keyPressed",
+        "instrucoes": 744
+      },
+      {
+        "nome": "keyReleased",
+        "instrucoes": 8
+      },
+      {
+        "nome": "keyRepeated",
+        "instrucoes": 6
+      },
+      {
+        "nome": "new",
+        "instrucoes": 189
+      },
+      {
+        "nome": "paint",
+        "instrucoes": 94
+      },
+      {
+        "nome": "run",
+        "instrucoes": 56
+      },
+      {
+        "nome": "try",
+        "instrucoes": 354
+      }
+    ],
+    "h$a": [
+      {
+        "nome": "constructor",
+        "instrucoes": 18
+      },
+      {
+        "nome": "run",
+        "instrucoes": 51
+      }
+    ],
+    "i": [
+      {
+        "nome": "constructor",
+        "instrucoes": 9
+      }
+    ],
+    "j": [
+      {
+        "nome": "a",
+        "instrucoes": 26
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 28
+      },
+      {
+        "nome": "do",
+        "instrucoes": 65
+      },
+      {
+        "nome": "for",
+        "instrucoes": 90
+      },
+      {
+        "nome": "if",
+        "instrucoes": 115
+      }
+    ],
+    "k": [
+      {
+        "nome": "a",
+        "instrucoes": 7
+      },
+      {
+        "nome": "constructor",
+        "instrucoes": 30
+      },
+      {
+        "nome": "do",
+        "instrucoes": 6
+      },
+      {
+        "nome": "for",
+        "instrucoes": 4
+      },
+      {
+        "nome": "if",
+        "instrucoes": 9
+      },
+      {
+        "nome": "int",
+        "instrucoes": 6
+      },
+      {
+        "nome": "new",
+        "instrucoes": 6
+      }
+    ]
+  },
+  "metodos_criticos": [
+    {
+      "classe": "h$a",
+      "metodo": "run",
+      "instrucoes": 51
+    },
+    {
+      "classe": "h",
+      "metodo": "run",
+      "instrucoes": 56
+    },
+    {
+      "classe": "h",
+      "metodo": "paint",
+      "instrucoes": 94
+    },
+    {
+      "classe": "h",
+      "metodo": "keyPressed",
+      "instrucoes": 744
+    }
+  ]
+}
