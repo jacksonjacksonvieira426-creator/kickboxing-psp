@@ -189,6 +189,9 @@ struct g_s {
     String*      f;
 };
 
+typedef struct h_a_cls_s h_a_cls;
+typedef struct h_a_cls_s h_a_cls_s;
+
 struct h_a_s {
     Thread*      if_x;
     h* a;
@@ -237,8 +240,6 @@ struct h_s {
     int          e;
     String**     d;
     String**     if_x;
-typedef struct h_a_cls_s h_a_cls;
-typedef struct h_a_cls_s h_a_cls_s;
     h_a_cls*         n;
     int          B;
     int          void_x;
