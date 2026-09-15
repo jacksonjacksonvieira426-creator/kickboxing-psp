@@ -107,7 +107,7 @@ int MapCanvas_lightflag = 0;
 // Structs
 struct KickBoxing_s {
     Display*     int_x;
-    h*           do_x;
+    h_cls* do_x;
     Form*        for_x;
     TextField*   if_x;
     Command*     a;
@@ -167,7 +167,7 @@ struct f_s {
 };
 
 struct g_s {
-    h*           for_x;
+    h_cls* for_x;
     int          e;
     int          try;
     int          long_x;
@@ -191,8 +191,8 @@ struct g_s {
 
 struct h_a_s {
     Thread*      if_x;
-    h*           a;
-    h*           this_0;
+    h_cls* a;
+    h_cls* this_0;
 };
 
 struct h_s {
@@ -237,7 +237,9 @@ struct h_s {
     int          e;
     String**     d;
     String**     if_x;
-    h$a*         n;
+typedef struct h_a_cls_s h_a_cls;
+typedef struct h_a_cls_s h_a_cls_s;
+    h_a_cls*         n;
     int          B;
     int          void_x;
 };
@@ -248,7 +250,7 @@ struct i_s {
 };
 
 struct j_s {
-    h*           do_x;
+    h_cls* do_x;
     String*      for_x;
     String**     if_x;
     RecordStore* int_x;
@@ -717,164 +719,164 @@ void h_a_run(void* self) {
 }
 
 void h_constructor(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_do_x(void* self) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_a(void* self) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_if_x(void* self) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_for_x(void* self) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_run(void* self) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_goto_x(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_for_x_2(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_char_x(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_hideNotify(void* self) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_case_x(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_new(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_int_x(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_a_2(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_byte(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_do_x_2(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_a_3(void* self, void* arg0, int arg1) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_else_x(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_if_x_2(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_try(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_paint(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_keyPressed(void* self, int arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_keyRepeated(void* self, int arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_keyReleased(void* self, int arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void h_access_000(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return;
     (void)s;
 }
 
 void* h_access_102(void* self, void* arg0, void* arg1) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return 0;
     (void)s;
     return 0;
 }
 
 void* h_access_100(void* self, void* arg0) {
-    h* s = (h*)self;
+    h_cls* s = (h_cls*)self;
     if (!s) return 0;
     (void)s;
     return 0;
