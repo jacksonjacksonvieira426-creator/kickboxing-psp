@@ -282,7 +282,7 @@ void KickBoxing_commandAction(void* self, void* arg0, void* arg1);
 void KickBoxing_do_x(void* self);
 void KickBoxing_a(void* self);
 void a_constructor(void* self, int arg0, int arg1, int arg2, int arg3);
-int a_a(void* self, void* arg0, int arg1);
+int a_a_fn(void* self, void* arg0, int arg1);
 void b_constructor(void* self, void* arg0, int arg1, int arg2);
 void b_a(void* self, void* arg0);
 void b_for_x(void* self, void* arg0, void* arg1);
@@ -430,7 +430,7 @@ void a_constructor(void* self, int arg0, int arg1, int arg2, int arg3) {
     (void)s;
 }
 
-int a_a(void* self, void* arg0, int arg1) {
+int a_a_fn(void* self, void* arg0, int arg1) {
     a* s = (a*)self;
     if (!s) return 0;
     (void)s;
