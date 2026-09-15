@@ -54,6 +54,20 @@ typedef void* Character;
 typedef void* Boolean;
 typedef void* Float;
 typedef void* Double;
+typedef void* Sound;
+typedef void* DeviceControl;
+typedef void* SpriteEvent;
+typedef void* SpriteListener;
+typedef void* SpriteAction;
+typedef void* MIDP;
+typedef void* SoundListener;
+typedef void* Player;
+typedef void* PlayerListener;
+typedef void* Control;
+typedef void* Manager;
+typedef void* DataInputStream2;
+typedef void* ByteArrayInputStream;
+typedef void* ByteArrayOutputStream;
 
 // Stubs de biblioteca
 void j2me_canvas_repaint(void) { }
@@ -70,7 +84,7 @@ typedef struct d_s d;
 typedef struct e_s e;
 typedef struct f_s f;
 typedef struct g_s g;
-typedef struct ofusc_00ed_s ofusc_00ed;
+typedef struct h_a_s h_a;
 typedef struct h_s h;
 typedef struct i_s i;
 typedef struct j_s j;
@@ -175,10 +189,10 @@ struct g_s {
     String*      f;
 };
 
-struct ofusc_00ed_s {
+struct h_a_s {
     Thread*      if_x;
     h*           a;
-    h*           ofusc_020c;
+    h*           this_0;
 };
 
 struct h_s {
@@ -313,8 +327,8 @@ void g_if_x_2(void* self, void* arg0);
 void g_a_2(void* self, void* arg0);
 void g_for_x_2(void* self, void* arg0);
 void g_new_2(void* self, void* arg0);
-void ofusc_00ed_constructor(void* self, void* arg0, void* arg1);
-void ofusc_00ed_run(void* self);
+void h_a_constructor(void* self, void* arg0, void* arg1);
+void h_a_run(void* self);
 void h_constructor(void* self, void* arg0);
 void h_do_x(void* self);
 void h_a(void* self);
@@ -339,9 +353,9 @@ void h_paint(void* self, void* arg0);
 void h_keyPressed(void* self, int arg0);
 void h_keyRepeated(void* self, int arg0);
 void h_keyReleased(void* self, int arg0);
-void h_ofusc_0326(void* self, void* arg0);
-void* h_ofusc_0329(void* self, void* arg0, void* arg1);
-void* h_ofusc_0327(void* self, void* arg0);
+void h_access_000(void* self, void* arg0);
+void* h_access_102(void* self, void* arg0, void* arg1);
+void* h_access_100(void* self, void* arg0);
 void i_constructor(void* self, int arg0, int arg1);
 void j_constructor(void* self, void* arg0);
 void j_a(void* self);
@@ -690,14 +704,14 @@ void g_new_2(void* self, void* arg0) {
     (void)s;
 }
 
-void ofusc_00ed_constructor(void* self, void* arg0, void* arg1) {
-    ofusc_00ed* s = (ofusc_00ed*)self;
+void h_a_constructor(void* self, void* arg0, void* arg1) {
+    h_a* s = (h_a*)self;
     if (!s) return;
     (void)s;
 }
 
-void ofusc_00ed_run(void* self) {
-    ofusc_00ed* s = (ofusc_00ed*)self;
+void h_a_run(void* self) {
+    h_a* s = (h_a*)self;
     if (!s) return;
     (void)s;
 }
@@ -846,20 +860,20 @@ void h_keyReleased(void* self, int arg0) {
     (void)s;
 }
 
-void h_ofusc_0326(void* self, void* arg0) {
+void h_access_000(void* self, void* arg0) {
     h* s = (h*)self;
     if (!s) return;
     (void)s;
 }
 
-void* h_ofusc_0329(void* self, void* arg0, void* arg1) {
+void* h_access_102(void* self, void* arg0, void* arg1) {
     h* s = (h*)self;
     if (!s) return 0;
     (void)s;
     return 0;
 }
 
-void* h_ofusc_0327(void* self, void* arg0) {
+void* h_access_100(void* self, void* arg0) {
     h* s = (h*)self;
     if (!s) return 0;
     (void)s;
